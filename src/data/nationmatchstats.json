@@ -1,0 +1,6250 @@
+{
+    "MAS": {
+        "win": 900,
+        "matches": 1743,
+        "THA": {
+            "win": 84,
+            "matches": 166
+        },
+        "INA": {
+            "win": 138,
+            "matches": 293
+        },
+        "HKG": {
+            "win": 34,
+            "matches": 59
+        },
+        "FRA": {
+            "win": 31,
+            "matches": 46
+        },
+        "DEN": {
+            "win": 53,
+            "matches": 96
+        },
+        "KOR": {
+            "win": 46,
+            "matches": 120
+        },
+        "JPN": {
+            "win": 57,
+            "matches": 164
+        },
+        "IND": {
+            "win": 89,
+            "matches": 141
+        },
+        "ISR": {
+            "win": 2,
+            "matches": 2
+        },
+        "CHN": {
+            "win": 82,
+            "matches": 221
+        },
+        "TPE": {
+            "win": 84,
+            "matches": 169
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 2
+        },
+        "BRA": {
+            "win": 3,
+            "matches": 3
+        },
+        "AUS": {
+            "win": 12,
+            "matches": 13
+        },
+        "CAN": {
+            "win": 14,
+            "matches": 18
+        },
+        "RUS": {
+            "win": 28,
+            "matches": 37
+        },
+        "ESP": {
+            "win": 5,
+            "matches": 6
+        },
+        "GER": {
+            "win": 26,
+            "matches": 38
+        },
+        "PHI": {
+            "win": 3,
+            "matches": 3
+        },
+        "MYA": {
+            "win": 1,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 8,
+            "matches": 10
+        },
+        "BUL": {
+            "win": 2,
+            "matches": 5
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 2,
+            "matches": 3
+        },
+        "ENG": {
+            "win": 28,
+            "matches": 45
+        },
+        "AUT": {
+            "win": 4,
+            "matches": 4
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 12,
+            "matches": 17
+        },
+        "AZE": {
+            "win": 2,
+            "matches": 3
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 9,
+            "matches": 13
+        },
+        "MRI": {
+            "win": 1,
+            "matches": 2
+        },
+        "POL": {
+            "win": 0,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 2
+        },
+        "BEL": {
+            "win": 2,
+            "matches": 2
+        },
+        "USA": {
+            "win": 16,
+            "matches": 18
+        },
+        "IRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 2,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 4,
+            "matches": 4
+        },
+        "ITA": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 2,
+            "matches": 2
+        },
+        "IRL": {
+            "win": 4,
+            "matches": 5
+        }
+    },
+    "THA": {
+        "win": 900,
+        "matches": 1824,
+        "MAS": {
+            "win": 82,
+            "matches": 166
+        },
+        "VIE": {
+            "win": 8,
+            "matches": 12
+        },
+        "INA": {
+            "win": 101,
+            "matches": 222
+        },
+        "FRA": {
+            "win": 32,
+            "matches": 39
+        },
+        "HKG": {
+            "win": 42,
+            "matches": 71
+        },
+        "IND": {
+            "win": 113,
+            "matches": 172
+        },
+        "BRA": {
+            "win": 2,
+            "matches": 2
+        },
+        "CHN": {
+            "win": 94,
+            "matches": 243
+        },
+        "DEN": {
+            "win": 37,
+            "matches": 86
+        },
+        "TPE": {
+            "win": 78,
+            "matches": 158
+        },
+        "JPN": {
+            "win": 58,
+            "matches": 203
+        },
+        "GER": {
+            "win": 17,
+            "matches": 29
+        },
+        "KOR": {
+            "win": 45,
+            "matches": 144
+        },
+        "NZL": {
+            "win": 4,
+            "matches": 4
+        },
+        "NED": {
+            "win": 20,
+            "matches": 29
+        },
+        "SWE": {
+            "win": 5,
+            "matches": 5
+        },
+        "CAN": {
+            "win": 17,
+            "matches": 28
+        },
+        "ENG": {
+            "win": 30,
+            "matches": 42
+        },
+        "SGP": {
+            "win": 8,
+            "matches": 17
+        },
+        "ISR": {
+            "win": 7,
+            "matches": 7
+        },
+        "CZE": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 10,
+            "matches": 27
+        },
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 6,
+            "matches": 6
+        },
+        "RUS": {
+            "win": 17,
+            "matches": 22
+        },
+        "IRL": {
+            "win": 4,
+            "matches": 5
+        },
+        "BLR": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 6,
+            "matches": 9
+        },
+        "SCO": {
+            "win": 5,
+            "matches": 7
+        },
+        "USA": {
+            "win": 21,
+            "matches": 30
+        },
+        "MRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 5,
+            "matches": 5
+        },
+        "TUR": {
+            "win": 3,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 4,
+            "matches": 4
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 2,
+            "matches": 2
+        },
+        "EST": {
+            "win": 2,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 3,
+            "matches": 10
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        },
+        "NEP": {
+            "win": 1,
+            "matches": 1
+        },
+        "NGR": {
+            "win": 1,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 2,
+            "matches": 2
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "INA": {
+        "win": 1456,
+        "matches": 2649,
+        "MAS": {
+            "win": 155,
+            "matches": 293
+        },
+        "IND": {
+            "win": 167,
+            "matches": 244
+        },
+        "THA": {
+            "win": 121,
+            "matches": 222
+        },
+        "HKG": {
+            "win": 75,
+            "matches": 124
+        },
+        "DEN": {
+            "win": 84,
+            "matches": 140
+        },
+        "FRA": {
+            "win": 34,
+            "matches": 51
+        },
+        "VIE": {
+            "win": 8,
+            "matches": 14
+        },
+        "JPN": {
+            "win": 124,
+            "matches": 335
+        },
+        "CAN": {
+            "win": 25,
+            "matches": 32
+        },
+        "TPE": {
+            "win": 197,
+            "matches": 308
+        },
+        "KOR": {
+            "win": 59,
+            "matches": 172
+        },
+        "CHN": {
+            "win": 149,
+            "matches": 361
+        },
+        "GER": {
+            "win": 35,
+            "matches": 49
+        },
+        "ESP": {
+            "win": 3,
+            "matches": 5
+        },
+        "ISR": {
+            "win": 5,
+            "matches": 5
+        },
+        "NZL": {
+            "win": 12,
+            "matches": 12
+        },
+        "AUS": {
+            "win": 10,
+            "matches": 12
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 2,
+            "matches": 2
+        },
+        "NED": {
+            "win": 23,
+            "matches": 34
+        },
+        "ITA": {
+            "win": 3,
+            "matches": 4
+        },
+        "SGP": {
+            "win": 22,
+            "matches": 30
+        },
+        "MGL": {
+            "win": 1,
+            "matches": 1
+        },
+        "NEP": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 23,
+            "matches": 33
+        },
+        "RUS": {
+            "win": 33,
+            "matches": 39
+        },
+        "CHI": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 41,
+            "matches": 65
+        },
+        "BEL": {
+            "win": 5,
+            "matches": 6
+        },
+        "UZB": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 3
+        },
+        "MRI": {
+            "win": 2,
+            "matches": 2
+        },
+        "MAC": {
+            "win": 0,
+            "matches": 1
+        },
+        "AZE": {
+            "win": 3,
+            "matches": 3
+        },
+        "IRL": {
+            "win": 5,
+            "matches": 5
+        },
+        "SCO": {
+            "win": 2,
+            "matches": 5
+        },
+        "SUI": {
+            "win": 5,
+            "matches": 5
+        },
+        "SVK": {
+            "win": 3,
+            "matches": 3
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "HUN": {
+            "win": 2,
+            "matches": 2
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 2
+        },
+        "SWE": {
+            "win": 3,
+            "matches": 4
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 4,
+            "matches": 11
+        },
+        "EST": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "IND": {
+        "win": 712,
+        "matches": 1818,
+        "INA": {
+            "win": 77,
+            "matches": 244
+        },
+        "JPN": {
+            "win": 49,
+            "matches": 148
+        },
+        "ISR": {
+            "win": 13,
+            "matches": 17
+        },
+        "THA": {
+            "win": 59,
+            "matches": 172
+        },
+        "DEN": {
+            "win": 42,
+            "matches": 126
+        },
+        "MAS": {
+            "win": 52,
+            "matches": 141
+        },
+        "ENG": {
+            "win": 20,
+            "matches": 47
+        },
+        "HKG": {
+            "win": 39,
+            "matches": 100
+        },
+        "CHN": {
+            "win": 49,
+            "matches": 211
+        },
+        "TPE": {
+            "win": 31,
+            "matches": 100
+        },
+        "CZE": {
+            "win": 3,
+            "matches": 4
+        },
+        "BRA": {
+            "win": 6,
+            "matches": 7
+        },
+        "FRA": {
+            "win": 41,
+            "matches": 62
+        },
+        "KOR": {
+            "win": 24,
+            "matches": 90
+        },
+        "IRL": {
+            "win": 6,
+            "matches": 11
+        },
+        "GER": {
+            "win": 27,
+            "matches": 47
+        },
+        "BUL": {
+            "win": 9,
+            "matches": 12
+        },
+        "ALG": {
+            "win": 2,
+            "matches": 2
+        },
+        "PYF": {
+            "win": 0,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 8,
+            "matches": 20
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 5
+        },
+        "RUS": {
+            "win": 33,
+            "matches": 58
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 11,
+            "matches": 20
+        },
+        "NZL": {
+            "win": 6,
+            "matches": 7
+        },
+        "SRI": {
+            "win": 4,
+            "matches": 6
+        },
+        "CAN": {
+            "win": 16,
+            "matches": 28
+        },
+        "ITA": {
+            "win": 3,
+            "matches": 4
+        },
+        "VIE": {
+            "win": 4,
+            "matches": 6
+        },
+        "BEL": {
+            "win": 7,
+            "matches": 10
+        },
+        "MRI": {
+            "win": 4,
+            "matches": 5
+        },
+        "ISL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 10,
+            "matches": 20
+        },
+        "AUT": {
+            "win": 3,
+            "matches": 3
+        },
+        "SWE": {
+            "win": 3,
+            "matches": 5
+        },
+        "AUS": {
+            "win": 6,
+            "matches": 8
+        },
+        "SRB": {
+            "win": 1,
+            "matches": 1
+        },
+        "SLO": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 15,
+            "matches": 28
+        },
+        "CUB": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 7
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 2
+        },
+        "EST": {
+            "win": 0,
+            "matches": 4
+        },
+        "HUN": {
+            "win": 4,
+            "matches": 4
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 4
+        },
+        "UKR": {
+            "win": 2,
+            "matches": 2
+        },
+        "EGY": {
+            "win": 4,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 5
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "UGA": {
+            "win": 1,
+            "matches": 1
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "NEP": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "JPN": {
+        "win": 1626,
+        "matches": 2479,
+        "IND": {
+            "win": 99,
+            "matches": 148
+        },
+        "ISR": {
+            "win": 4,
+            "matches": 4
+        },
+        "INA": {
+            "win": 211,
+            "matches": 335
+        },
+        "TPE": {
+            "win": 161,
+            "matches": 235
+        },
+        "MAS": {
+            "win": 107,
+            "matches": 164
+        },
+        "CHN": {
+            "win": 225,
+            "matches": 441
+        },
+        "HKG": {
+            "win": 58,
+            "matches": 70
+        },
+        "DEN": {
+            "win": 101,
+            "matches": 147
+        },
+        "KOR": {
+            "win": 124,
+            "matches": 248
+        },
+        "POL": {
+            "win": 4,
+            "matches": 4
+        },
+        "ESP": {
+            "win": 15,
+            "matches": 28
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 4
+        },
+        "THA": {
+            "win": 145,
+            "matches": 203
+        },
+        "GER": {
+            "win": 45,
+            "matches": 54
+        },
+        "FRA": {
+            "win": 33,
+            "matches": 39
+        },
+        "NED": {
+            "win": 21,
+            "matches": 27
+        },
+        "ENG": {
+            "win": 38,
+            "matches": 51
+        },
+        "AUS": {
+            "win": 12,
+            "matches": 13
+        },
+        "CAN": {
+            "win": 48,
+            "matches": 55
+        },
+        "VIE": {
+            "win": 6,
+            "matches": 8
+        },
+        "HUN": {
+            "win": 3,
+            "matches": 3
+        },
+        "RUS": {
+            "win": 54,
+            "matches": 63
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 3
+        },
+        "NEP": {
+            "win": 1,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 12,
+            "matches": 19
+        },
+        "ITA": {
+            "win": 3,
+            "matches": 3
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "BRA": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 33,
+            "matches": 38
+        },
+        "IRL": {
+            "win": 6,
+            "matches": 6
+        },
+        "SLO": {
+            "win": 1,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 13,
+            "matches": 20
+        },
+        "NZL": {
+            "win": 8,
+            "matches": 8
+        },
+        "SWE": {
+            "win": 4,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 10,
+            "matches": 14
+        },
+        "TUR": {
+            "win": 3,
+            "matches": 4
+        },
+        "EST": {
+            "win": 3,
+            "matches": 3
+        },
+        "SVK": {
+            "win": 2,
+            "matches": 2
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "AZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 3,
+            "matches": 3
+        }
+    },
+    "VIE": {
+        "win": 37,
+        "matches": 118,
+        "THA": {
+            "win": 4,
+            "matches": 12
+        },
+        "BRA": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 2,
+            "matches": 6
+        },
+        "INA": {
+            "win": 6,
+            "matches": 14
+        },
+        "TPE": {
+            "win": 2,
+            "matches": 15
+        },
+        "CHN": {
+            "win": 3,
+            "matches": 20
+        },
+        "USA": {
+            "win": 2,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 2,
+            "matches": 8
+        },
+        "KOR": {
+            "win": 1,
+            "matches": 5
+        },
+        "IND": {
+            "win": 2,
+            "matches": 6
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 2,
+            "matches": 10
+        },
+        "RUS": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "MRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 2,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 1,
+            "matches": 2
+        },
+        "GER": {
+            "win": 0,
+            "matches": 3
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 2
+        },
+        "PHI": {
+            "win": 1,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 2
+        }
+    },
+    "FRA": {
+        "win": 317,
+        "matches": 764,
+        "THA": {
+            "win": 7,
+            "matches": 39
+        },
+        "INA": {
+            "win": 17,
+            "matches": 51
+        },
+        "MAS": {
+            "win": 15,
+            "matches": 46
+        },
+        "HKG": {
+            "win": 4,
+            "matches": 11
+        },
+        "TPE": {
+            "win": 18,
+            "matches": 56
+        },
+        "CHN": {
+            "win": 15,
+            "matches": 53
+        },
+        "ESP": {
+            "win": 6,
+            "matches": 11
+        },
+        "IND": {
+            "win": 21,
+            "matches": 62
+        },
+        "JPN": {
+            "win": 6,
+            "matches": 39
+        },
+        "DEN": {
+            "win": 36,
+            "matches": 77
+        },
+        "UKR": {
+            "win": 3,
+            "matches": 5
+        },
+        "BEN": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 27,
+            "matches": 60
+        },
+        "GER": {
+            "win": 24,
+            "matches": 49
+        },
+        "MAR": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 5,
+            "matches": 8
+        },
+        "IRL": {
+            "win": 7,
+            "matches": 14
+        },
+        "KOR": {
+            "win": 2,
+            "matches": 20
+        },
+        "CAN": {
+            "win": 11,
+            "matches": 14
+        },
+        "SGP": {
+            "win": 3,
+            "matches": 6
+        },
+        "SWE": {
+            "win": 5,
+            "matches": 6
+        },
+        "TUR": {
+            "win": 2,
+            "matches": 3
+        },
+        "BRA": {
+            "win": 2,
+            "matches": 3
+        },
+        "ITA": {
+            "win": 4,
+            "matches": 4
+        },
+        "POL": {
+            "win": 2,
+            "matches": 3
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "MDA": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 12,
+            "matches": 29
+        },
+        "RUS": {
+            "win": 9,
+            "matches": 20
+        },
+        "EST": {
+            "win": 2,
+            "matches": 4
+        },
+        "SUI": {
+            "win": 8,
+            "matches": 8
+        },
+        "BUL": {
+            "win": 5,
+            "matches": 15
+        },
+        "VIE": {
+            "win": 1,
+            "matches": 3
+        },
+        "SUR": {
+            "win": 1,
+            "matches": 1
+        },
+        "POR": {
+            "win": 2,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 2,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 2
+        },
+        "BEL": {
+            "win": 3,
+            "matches": 6
+        },
+        "ALG": {
+            "win": 2,
+            "matches": 2
+        },
+        "AZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 5
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 7,
+            "matches": 9
+        },
+        "NOR": {
+            "win": 1,
+            "matches": 1
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "PER": {
+            "win": 1,
+            "matches": 1
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 1
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 2,
+            "matches": 2
+        }
+    },
+    "BRA": {
+        "win": 6,
+        "matches": 30,
+        "VIE": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 2
+        },
+        "IND": {
+            "win": 1,
+            "matches": 7
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 3
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 4
+        },
+        "FRA": {
+            "win": 1,
+            "matches": 3
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "HKG": {
+        "win": 352,
+        "matches": 810,
+        "THA": {
+            "win": 29,
+            "matches": 71
+        },
+        "INA": {
+            "win": 49,
+            "matches": 124
+        },
+        "MAS": {
+            "win": 25,
+            "matches": 59
+        },
+        "DEN": {
+            "win": 12,
+            "matches": 34
+        },
+        "FRA": {
+            "win": 7,
+            "matches": 11
+        },
+        "JPN": {
+            "win": 12,
+            "matches": 70
+        },
+        "RUS": {
+            "win": 4,
+            "matches": 9
+        },
+        "IND": {
+            "win": 61,
+            "matches": 100
+        },
+        "NED": {
+            "win": 8,
+            "matches": 10
+        },
+        "CHN": {
+            "win": 26,
+            "matches": 86
+        },
+        "TPE": {
+            "win": 56,
+            "matches": 106
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 4,
+            "matches": 8
+        },
+        "KOR": {
+            "win": 11,
+            "matches": 47
+        },
+        "AUS": {
+            "win": 5,
+            "matches": 7
+        },
+        "SGP": {
+            "win": 3,
+            "matches": 3
+        },
+        "CAN": {
+            "win": 4,
+            "matches": 14
+        },
+        "ISR": {
+            "win": 3,
+            "matches": 3
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 2,
+            "matches": 4
+        },
+        "USA": {
+            "win": 7,
+            "matches": 12
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 1,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 1
+        },
+        "SWE": {
+            "win": 1,
+            "matches": 1
+        },
+        "MYA": {
+            "win": 1,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 1,
+            "matches": 2
+        },
+        "GER": {
+            "win": 7,
+            "matches": 10
+        },
+        "PHI": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 3
+        },
+        "IRL": {
+            "win": 5,
+            "matches": 5
+        },
+        "BRN": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "CAN": {
+        "win": 157,
+        "matches": 460,
+        "VIE": {
+            "win": 4,
+            "matches": 6
+        },
+        "INA": {
+            "win": 7,
+            "matches": 32
+        },
+        "USA": {
+            "win": 18,
+            "matches": 28
+        },
+        "GER": {
+            "win": 9,
+            "matches": 16
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "THA": {
+            "win": 11,
+            "matches": 28
+        },
+        "NED": {
+            "win": 3,
+            "matches": 7
+        },
+        "ENG": {
+            "win": 6,
+            "matches": 13
+        },
+        "NZL": {
+            "win": 1,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 7,
+            "matches": 55
+        },
+        "PHI": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 4,
+            "matches": 18
+        },
+        "CHN": {
+            "win": 10,
+            "matches": 49
+        },
+        "DEN": {
+            "win": 5,
+            "matches": 22
+        },
+        "KOR": {
+            "win": 8,
+            "matches": 35
+        },
+        "SRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 3,
+            "matches": 14
+        },
+        "IND": {
+            "win": 12,
+            "matches": 28
+        },
+        "RUS": {
+            "win": 4,
+            "matches": 11
+        },
+        "TPE": {
+            "win": 11,
+            "matches": 42
+        },
+        "HUN": {
+            "win": 2,
+            "matches": 2
+        },
+        "AUS": {
+            "win": 2,
+            "matches": 3
+        },
+        "SGP": {
+            "win": 2,
+            "matches": 3
+        },
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 2
+        },
+        "LAO": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 0,
+            "matches": 1
+        },
+        "SLO": {
+            "win": 1,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 4
+        },
+        "HKG": {
+            "win": 10,
+            "matches": 14
+        },
+        "SUI": {
+            "win": 4,
+            "matches": 5
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 6
+        },
+        "EST": {
+            "win": 2,
+            "matches": 2
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        },
+        "TTO": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "DEN": {
+        "win": 794,
+        "matches": 1499,
+        "INA": {
+            "win": 56,
+            "matches": 140
+        },
+        "IND": {
+            "win": 84,
+            "matches": 126
+        },
+        "MAS": {
+            "win": 43,
+            "matches": 96
+        },
+        "HKG": {
+            "win": 22,
+            "matches": 34
+        },
+        "CHN": {
+            "win": 57,
+            "matches": 157
+        },
+        "KOR": {
+            "win": 26,
+            "matches": 62
+        },
+        "TPE": {
+            "win": 57,
+            "matches": 109
+        },
+        "JPN": {
+            "win": 46,
+            "matches": 147
+        },
+        "THA": {
+            "win": 49,
+            "matches": 86
+        },
+        "GER": {
+            "win": 71,
+            "matches": 94
+        },
+        "FRA": {
+            "win": 41,
+            "matches": 77
+        },
+        "AUT": {
+            "win": 4,
+            "matches": 5
+        },
+        "FIN": {
+            "win": 8,
+            "matches": 10
+        },
+        "ESP": {
+            "win": 13,
+            "matches": 22
+        },
+        "NED": {
+            "win": 27,
+            "matches": 52
+        },
+        "ISR": {
+            "win": 5,
+            "matches": 8
+        },
+        "CAN": {
+            "win": 17,
+            "matches": 22
+        },
+        "BRA": {
+            "win": 4,
+            "matches": 4
+        },
+        "SRI": {
+            "win": 1,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 3,
+            "matches": 3
+        },
+        "ENG": {
+            "win": 28,
+            "matches": 59
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 6,
+            "matches": 8
+        },
+        "ITA": {
+            "win": 2,
+            "matches": 2
+        },
+        "POR": {
+            "win": 2,
+            "matches": 2
+        },
+        "RUS": {
+            "win": 21,
+            "matches": 32
+        },
+        "IRL": {
+            "win": 3,
+            "matches": 8
+        },
+        "MEX": {
+            "win": 2,
+            "matches": 2
+        },
+        "DOM": {
+            "win": 2,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 7,
+            "matches": 18
+        },
+        "ROU": {
+            "win": 1,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 9,
+            "matches": 11
+        },
+        "ISL": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 4,
+            "matches": 4
+        },
+        "SWE": {
+            "win": 6,
+            "matches": 6
+        },
+        "SVK": {
+            "win": 5,
+            "matches": 5
+        },
+        "ALG": {
+            "win": 3,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 8,
+            "matches": 9
+        },
+        "SCO": {
+            "win": 14,
+            "matches": 21
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 6
+        },
+        "USA": {
+            "win": 14,
+            "matches": 19
+        },
+        "CZE": {
+            "win": 6,
+            "matches": 7
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 2
+        },
+        "EST": {
+            "win": 1,
+            "matches": 2
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 2,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 3,
+            "matches": 3
+        },
+        "AUS": {
+            "win": 3,
+            "matches": 3
+        },
+        "EGY": {
+            "win": 2,
+            "matches": 2
+        },
+        "PER": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "ISR": {
+        "win": 17,
+        "matches": 80,
+        "IND": {
+            "win": 4,
+            "matches": 17
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 4
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 2,
+            "matches": 5
+        },
+        "INA": {
+            "win": 0,
+            "matches": 5
+        },
+        "DEN": {
+            "win": 3,
+            "matches": 8
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 3
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 7
+        },
+        "SRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 4
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 3
+        },
+        "GER": {
+            "win": 1,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 3
+        },
+        "USA": {
+            "win": 0,
+            "matches": 3
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "TPE": {
+        "win": 991,
+        "matches": 2087,
+        "INA": {
+            "win": 111,
+            "matches": 308
+        },
+        "JPN": {
+            "win": 74,
+            "matches": 235
+        },
+        "DEN": {
+            "win": 52,
+            "matches": 109
+        },
+        "FRA": {
+            "win": 38,
+            "matches": 56
+        },
+        "KOR": {
+            "win": 73,
+            "matches": 194
+        },
+        "CHN": {
+            "win": 114,
+            "matches": 316
+        },
+        "THA": {
+            "win": 80,
+            "matches": 158
+        },
+        "MAS": {
+            "win": 85,
+            "matches": 169
+        },
+        "RUS": {
+            "win": 21,
+            "matches": 29
+        },
+        "IND": {
+            "win": 69,
+            "matches": 100
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 50,
+            "matches": 106
+        },
+        "ISR": {
+            "win": 3,
+            "matches": 5
+        },
+        "ENG": {
+            "win": 25,
+            "matches": 41
+        },
+        "VIE": {
+            "win": 13,
+            "matches": 15
+        },
+        "GER": {
+            "win": 30,
+            "matches": 44
+        },
+        "SGP": {
+            "win": 3,
+            "matches": 13
+        },
+        "ESP": {
+            "win": 10,
+            "matches": 14
+        },
+        "NED": {
+            "win": 10,
+            "matches": 17
+        },
+        "CAN": {
+            "win": 31,
+            "matches": 42
+        },
+        "NZL": {
+            "win": 6,
+            "matches": 6
+        },
+        "POL": {
+            "win": 2,
+            "matches": 2
+        },
+        "USA": {
+            "win": 31,
+            "matches": 35
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 2
+        },
+        "TUR": {
+            "win": 3,
+            "matches": 3
+        },
+        "VEN": {
+            "win": 1,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 13,
+            "matches": 21
+        },
+        "BRA": {
+            "win": 2,
+            "matches": 2
+        },
+        "MEX": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 6,
+            "matches": 6
+        },
+        "UZB": {
+            "win": 2,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 5,
+            "matches": 5
+        },
+        "SCO": {
+            "win": 6,
+            "matches": 7
+        },
+        "MYA": {
+            "win": 1,
+            "matches": 1
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 3,
+            "matches": 6
+        },
+        "EST": {
+            "win": 3,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "BLR": {
+            "win": 1,
+            "matches": 1
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "KOR": {
+        "win": 1010,
+        "matches": 1627,
+        "MAS": {
+            "win": 74,
+            "matches": 120
+        },
+        "INA": {
+            "win": 113,
+            "matches": 172
+        },
+        "DEN": {
+            "win": 36,
+            "matches": 62
+        },
+        "ENG": {
+            "win": 18,
+            "matches": 26
+        },
+        "TPE": {
+            "win": 121,
+            "matches": 194
+        },
+        "JPN": {
+            "win": 124,
+            "matches": 248
+        },
+        "THA": {
+            "win": 99,
+            "matches": 144
+        },
+        "IND": {
+            "win": 66,
+            "matches": 90
+        },
+        "CHN": {
+            "win": 130,
+            "matches": 283
+        },
+        "USA": {
+            "win": 20,
+            "matches": 23
+        },
+        "FRA": {
+            "win": 18,
+            "matches": 20
+        },
+        "ISR": {
+            "win": 3,
+            "matches": 3
+        },
+        "NED": {
+            "win": 11,
+            "matches": 14
+        },
+        "CAN": {
+            "win": 27,
+            "matches": 35
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 2
+        },
+        "VIE": {
+            "win": 4,
+            "matches": 5
+        },
+        "GER": {
+            "win": 29,
+            "matches": 37
+        },
+        "SGP": {
+            "win": 4,
+            "matches": 9
+        },
+        "HKG": {
+            "win": 36,
+            "matches": 47
+        },
+        "CRO": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 5,
+            "matches": 15
+        },
+        "AUS": {
+            "win": 19,
+            "matches": 20
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 2
+        },
+        "RUS": {
+            "win": 19,
+            "matches": 20
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 3
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "MYA": {
+            "win": 1,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 8,
+            "matches": 8
+        },
+        "BUL": {
+            "win": 11,
+            "matches": 14
+        },
+        "EST": {
+            "win": 0,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 3,
+            "matches": 3
+        },
+        "MAC": {
+            "win": 1,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "CHN": {
+        "win": 1811,
+        "matches": 2853,
+        "INA": {
+            "win": 212,
+            "matches": 361
+        },
+        "DEN": {
+            "win": 100,
+            "matches": 157
+        },
+        "JPN": {
+            "win": 216,
+            "matches": 441
+        },
+        "THA": {
+            "win": 149,
+            "matches": 243
+        },
+        "FRA": {
+            "win": 38,
+            "matches": 53
+        },
+        "TPE": {
+            "win": 202,
+            "matches": 316
+        },
+        "IND": {
+            "win": 162,
+            "matches": 211
+        },
+        "MAS": {
+            "win": 139,
+            "matches": 221
+        },
+        "GER": {
+            "win": 45,
+            "matches": 57
+        },
+        "UKR": {
+            "win": 4,
+            "matches": 4
+        },
+        "RUS": {
+            "win": 34,
+            "matches": 40
+        },
+        "HKG": {
+            "win": 60,
+            "matches": 86
+        },
+        "KOR": {
+            "win": 153,
+            "matches": 283
+        },
+        "ENG": {
+            "win": 48,
+            "matches": 69
+        },
+        "CHI": {
+            "win": 1,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 17,
+            "matches": 20
+        },
+        "AUS": {
+            "win": 13,
+            "matches": 15
+        },
+        "SRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 39,
+            "matches": 46
+        },
+        "CAN": {
+            "win": 39,
+            "matches": 49
+        },
+        "NED": {
+            "win": 28,
+            "matches": 35
+        },
+        "ISR": {
+            "win": 4,
+            "matches": 4
+        },
+        "FIN": {
+            "win": 6,
+            "matches": 6
+        },
+        "BEL": {
+            "win": 8,
+            "matches": 8
+        },
+        "IRL": {
+            "win": 4,
+            "matches": 5
+        },
+        "MRI": {
+            "win": 2,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 9,
+            "matches": 16
+        },
+        "SCO": {
+            "win": 8,
+            "matches": 9
+        },
+        "MYA": {
+            "win": 1,
+            "matches": 1
+        },
+        "POR": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 12,
+            "matches": 26
+        },
+        "SGP": {
+            "win": 16,
+            "matches": 26
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "BRA": {
+            "win": 2,
+            "matches": 2
+        },
+        "MGL": {
+            "win": 1,
+            "matches": 1
+        },
+        "EST": {
+            "win": 2,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 6,
+            "matches": 6
+        },
+        "NZL": {
+            "win": 8,
+            "matches": 8
+        },
+        "TUR": {
+            "win": 5,
+            "matches": 5
+        },
+        "AZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAC": {
+            "win": 1,
+            "matches": 1
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        },
+        "MEX": {
+            "win": 2,
+            "matches": 2
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        },
+        "PER": {
+            "win": 2,
+            "matches": 2
+        },
+        "SWE": {
+            "win": 1,
+            "matches": 1
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "ENG": {
+        "win": 366,
+        "matches": 774,
+        "KOR": {
+            "win": 8,
+            "matches": 26
+        },
+        "IND": {
+            "win": 27,
+            "matches": 47
+        },
+        "SUI": {
+            "win": 5,
+            "matches": 6
+        },
+        "JPN": {
+            "win": 13,
+            "matches": 51
+        },
+        "CHN": {
+            "win": 21,
+            "matches": 69
+        },
+        "FRA": {
+            "win": 33,
+            "matches": 60
+        },
+        "PYF": {
+            "win": 0,
+            "matches": 1
+        },
+        "ALG": {
+            "win": 2,
+            "matches": 3
+        },
+        "IRL": {
+            "win": 11,
+            "matches": 17
+        },
+        "BRA": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 38,
+            "matches": 63
+        },
+        "TPE": {
+            "win": 16,
+            "matches": 41
+        },
+        "USA": {
+            "win": 12,
+            "matches": 14
+        },
+        "CAN": {
+            "win": 7,
+            "matches": 13
+        },
+        "THA": {
+            "win": 12,
+            "matches": 42
+        },
+        "HKG": {
+            "win": 4,
+            "matches": 8
+        },
+        "RUS": {
+            "win": 19,
+            "matches": 35
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 3
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 3
+        },
+        "CZE": {
+            "win": 3,
+            "matches": 4
+        },
+        "DEN": {
+            "win": 31,
+            "matches": 59
+        },
+        "UKR": {
+            "win": 3,
+            "matches": 4
+        },
+        "MAS": {
+            "win": 17,
+            "matches": 45
+        },
+        "INA": {
+            "win": 24,
+            "matches": 65
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 3
+        },
+        "ROU": {
+            "win": 2,
+            "matches": 2
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 2
+        },
+        "NED": {
+            "win": 17,
+            "matches": 28
+        },
+        "AUT": {
+            "win": 3,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 10,
+            "matches": 17
+        },
+        "MYA": {
+            "win": 0,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 2
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 4,
+            "matches": 8
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 1
+        },
+        "EST": {
+            "win": 3,
+            "matches": 3
+        },
+        "SWE": {
+            "win": 3,
+            "matches": 8
+        },
+        "WAL": {
+            "win": 0,
+            "matches": 1
+        },
+        "MRI": {
+            "win": 2,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 0,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 2,
+            "matches": 2
+        },
+        "AUS": {
+            "win": 0,
+            "matches": 2
+        },
+        "NGR": {
+            "win": 1,
+            "matches": 1
+        },
+        "POR": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 1,
+            "matches": 1
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "RUS": {
+        "win": 156,
+        "matches": 512,
+        "HKG": {
+            "win": 5,
+            "matches": 9
+        },
+        "TPE": {
+            "win": 8,
+            "matches": 29
+        },
+        "CHN": {
+            "win": 6,
+            "matches": 40
+        },
+        "GER": {
+            "win": 11,
+            "matches": 22
+        },
+        "UKR": {
+            "win": 2,
+            "matches": 2
+        },
+        "IND": {
+            "win": 25,
+            "matches": 58
+        },
+        "MAS": {
+            "win": 9,
+            "matches": 37
+        },
+        "ENG": {
+            "win": 16,
+            "matches": 35
+        },
+        "AUT": {
+            "win": 0,
+            "matches": 3
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 3
+        },
+        "JPN": {
+            "win": 9,
+            "matches": 63
+        },
+        "INA": {
+            "win": 6,
+            "matches": 39
+        },
+        "CAN": {
+            "win": 7,
+            "matches": 11
+        },
+        "ITA": {
+            "win": 1,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 6
+        },
+        "FRA": {
+            "win": 11,
+            "matches": 20
+        },
+        "IRL": {
+            "win": 4,
+            "matches": 7
+        },
+        "DEN": {
+            "win": 11,
+            "matches": 32
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 2
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 4
+        },
+        "THA": {
+            "win": 5,
+            "matches": 22
+        },
+        "USA": {
+            "win": 0,
+            "matches": 5
+        },
+        "KOR": {
+            "win": 1,
+            "matches": 20
+        },
+        "EST": {
+            "win": 0,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 2,
+            "matches": 8
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 3
+        },
+        "BUL": {
+            "win": 2,
+            "matches": 4
+        },
+        "CRO": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 5
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 0,
+            "matches": 2
+        },
+        "NED": {
+            "win": 4,
+            "matches": 9
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 0,
+            "matches": 1
+        },
+        "PER": {
+            "win": 1,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 0,
+            "matches": 1
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 2
+        }
+    },
+    "GER": {
+        "win": 317,
+        "matches": 813,
+        "USA": {
+            "win": 14,
+            "matches": 16
+        },
+        "INA": {
+            "win": 14,
+            "matches": 49
+        },
+        "DEN": {
+            "win": 23,
+            "matches": 94
+        },
+        "THA": {
+            "win": 12,
+            "matches": 29
+        },
+        "JPN": {
+            "win": 9,
+            "matches": 54
+        },
+        "AUT": {
+            "win": 3,
+            "matches": 7
+        },
+        "CHN": {
+            "win": 12,
+            "matches": 57
+        },
+        "FRA": {
+            "win": 25,
+            "matches": 49
+        },
+        "IND": {
+            "win": 20,
+            "matches": 47
+        },
+        "RUS": {
+            "win": 11,
+            "matches": 22
+        },
+        "IRL": {
+            "win": 8,
+            "matches": 16
+        },
+        "ENG": {
+            "win": 25,
+            "matches": 63
+        },
+        "CAN": {
+            "win": 7,
+            "matches": 16
+        },
+        "GUA": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 14,
+            "matches": 44
+        },
+        "SWE": {
+            "win": 6,
+            "matches": 10
+        },
+        "KOR": {
+            "win": 8,
+            "matches": 37
+        },
+        "MAS": {
+            "win": 12,
+            "matches": 38
+        },
+        "BEL": {
+            "win": 8,
+            "matches": 11
+        },
+        "ESP": {
+            "win": 10,
+            "matches": 18
+        },
+        "CZE": {
+            "win": 5,
+            "matches": 7
+        },
+        "SUI": {
+            "win": 6,
+            "matches": 7
+        },
+        "POL": {
+            "win": 1,
+            "matches": 5
+        },
+        "SVK": {
+            "win": 2,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 5
+        },
+        "NED": {
+            "win": 20,
+            "matches": 36
+        },
+        "BUL": {
+            "win": 5,
+            "matches": 15
+        },
+        "ROU": {
+            "win": 1,
+            "matches": 1
+        },
+        "BRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "ISR": {
+            "win": 2,
+            "matches": 3
+        },
+        "MAR": {
+            "win": 1,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 2
+        },
+        "EST": {
+            "win": 4,
+            "matches": 5
+        },
+        "WAL": {
+            "win": 0,
+            "matches": 2
+        },
+        "SGP": {
+            "win": 0,
+            "matches": 3
+        },
+        "AUS": {
+            "win": 2,
+            "matches": 2
+        },
+        "UKR": {
+            "win": 2,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 8,
+            "matches": 11
+        },
+        "EGY": {
+            "win": 1,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 3,
+            "matches": 3
+        },
+        "HKG": {
+            "win": 3,
+            "matches": 10
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "UZB": {
+            "win": 1,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 2,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 3
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "PER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "USA": {
+        "win": 107,
+        "matches": 409,
+        "GER": {
+            "win": 2,
+            "matches": 16
+        },
+        "TTO": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 10,
+            "matches": 28
+        },
+        "CHN": {
+            "win": 7,
+            "matches": 46
+        },
+        "ENG": {
+            "win": 2,
+            "matches": 14
+        },
+        "KOR": {
+            "win": 3,
+            "matches": 23
+        },
+        "BRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 2
+        },
+        "INA": {
+            "win": 10,
+            "matches": 33
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 4,
+            "matches": 35
+        },
+        "JPN": {
+            "win": 5,
+            "matches": 38
+        },
+        "IND": {
+            "win": 13,
+            "matches": 28
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 4
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 8
+        },
+        "ITA": {
+            "win": 2,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 4
+        },
+        "THA": {
+            "win": 9,
+            "matches": 30
+        },
+        "HKG": {
+            "win": 5,
+            "matches": 12
+        },
+        "LAT": {
+            "win": 2,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 2,
+            "matches": 2
+        },
+        "SWE": {
+            "win": 2,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 5,
+            "matches": 19
+        },
+        "RUS": {
+            "win": 5,
+            "matches": 5
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 2,
+            "matches": 5
+        },
+        "ISR": {
+            "win": 3,
+            "matches": 3
+        },
+        "MAS": {
+            "win": 2,
+            "matches": 18
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 3
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 3
+        },
+        "MEX": {
+            "win": 0,
+            "matches": 1
+        },
+        "PER": {
+            "win": 1,
+            "matches": 1
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 2,
+            "matches": 9
+        },
+        "BUL": {
+            "win": 1,
+            "matches": 3
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "EGY": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SUI": {
+        "win": 30,
+        "matches": 113,
+        "ENG": {
+            "win": 1,
+            "matches": 6
+        },
+        "JPN": {
+            "win": 1,
+            "matches": 4
+        },
+        "GER": {
+            "win": 1,
+            "matches": 7
+        },
+        "RUS": {
+            "win": 3,
+            "matches": 6
+        },
+        "SCO": {
+            "win": 1,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 3
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 6
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 8
+        },
+        "BRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "POR": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 5
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 4
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 3
+        },
+        "USA": {
+            "win": 3,
+            "matches": 4
+        },
+        "IND": {
+            "win": 4,
+            "matches": 7
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 9
+        },
+        "INA": {
+            "win": 0,
+            "matches": 5
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 3
+        },
+        "ISR": {
+            "win": 3,
+            "matches": 3
+        },
+        "KOR": {
+            "win": 2,
+            "matches": 2
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "EST": {
+            "win": 1,
+            "matches": 2
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 2
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SVK": {
+            "win": 0,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 0,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 4
+        },
+        "VIE": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "MRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 2
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 2
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "POL": {
+        "win": 11,
+        "matches": 38,
+        "JPN": {
+            "win": 0,
+            "matches": 4
+        },
+        "GER": {
+            "win": 4,
+            "matches": 5
+        },
+        "FRA": {
+            "win": 1,
+            "matches": 3
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 2
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 3,
+            "matches": 6
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 3
+        },
+        "NED": {
+            "win": 0,
+            "matches": 3
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "CZE": {
+        "win": 9,
+        "matches": 56,
+        "IND": {
+            "win": 1,
+            "matches": 4
+        },
+        "NED": {
+            "win": 0,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 3
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "SRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 2
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 4
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 3
+        },
+        "GER": {
+            "win": 2,
+            "matches": 7
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 3
+        },
+        "THA": {
+            "win": 0,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 1,
+            "matches": 2
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 0,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 7
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "ESP": {
+        "win": 132,
+        "matches": 244,
+        "JPN": {
+            "win": 13,
+            "matches": 28
+        },
+        "FRA": {
+            "win": 5,
+            "matches": 11
+        },
+        "INA": {
+            "win": 2,
+            "matches": 5
+        },
+        "IND": {
+            "win": 12,
+            "matches": 20
+        },
+        "DEN": {
+            "win": 9,
+            "matches": 22
+        },
+        "TPE": {
+            "win": 4,
+            "matches": 14
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 6
+        },
+        "ENG": {
+            "win": 2,
+            "matches": 3
+        },
+        "GER": {
+            "win": 8,
+            "matches": 18
+        },
+        "EST": {
+            "win": 1,
+            "matches": 3
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 1
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 14,
+            "matches": 26
+        },
+        "ALG": {
+            "win": 0,
+            "matches": 1
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        },
+        "THA": {
+            "win": 17,
+            "matches": 27
+        },
+        "KOR": {
+            "win": 10,
+            "matches": 15
+        },
+        "VIE": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 3,
+            "matches": 4
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 8,
+            "matches": 8
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 2
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 2,
+            "matches": 4
+        },
+        "BUL": {
+            "win": 4,
+            "matches": 4
+        },
+        "NED": {
+            "win": 1,
+            "matches": 2
+        },
+        "RUS": {
+            "win": 6,
+            "matches": 8
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 2
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 0,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "NED": {
+        "win": 180,
+        "matches": 418,
+        "CZE": {
+            "win": 2,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 6,
+            "matches": 27
+        },
+        "FIN": {
+            "win": 5,
+            "matches": 5
+        },
+        "HKG": {
+            "win": 2,
+            "matches": 10
+        },
+        "DEN": {
+            "win": 25,
+            "matches": 52
+        },
+        "IND": {
+            "win": 9,
+            "matches": 20
+        },
+        "THA": {
+            "win": 9,
+            "matches": 29
+        },
+        "CAN": {
+            "win": 4,
+            "matches": 7
+        },
+        "KOR": {
+            "win": 3,
+            "matches": 14
+        },
+        "CHN": {
+            "win": 7,
+            "matches": 35
+        },
+        "INA": {
+            "win": 11,
+            "matches": 34
+        },
+        "TPE": {
+            "win": 7,
+            "matches": 17
+        },
+        "SWE": {
+            "win": 9,
+            "matches": 9
+        },
+        "MAS": {
+            "win": 5,
+            "matches": 17
+        },
+        "GER": {
+            "win": 16,
+            "matches": 36
+        },
+        "ENG": {
+            "win": 11,
+            "matches": 28
+        },
+        "FRA": {
+            "win": 17,
+            "matches": 29
+        },
+        "IRL": {
+            "win": 4,
+            "matches": 5
+        },
+        "BEL": {
+            "win": 4,
+            "matches": 4
+        },
+        "BUL": {
+            "win": 1,
+            "matches": 7
+        },
+        "NZL": {
+            "win": 1,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 3
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 2
+        },
+        "EST": {
+            "win": 2,
+            "matches": 2
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 5,
+            "matches": 9
+        },
+        "SRI": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 4
+        },
+        "SUR": {
+            "win": 1,
+            "matches": 1
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "POL": {
+            "win": 3,
+            "matches": 3
+        },
+        "AUT": {
+            "win": 2,
+            "matches": 2
+        }
+    },
+    "FIN": {
+        "win": 39,
+        "matches": 90,
+        "MAS": {
+            "win": 0,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 2,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 1,
+            "matches": 2
+        },
+        "NED": {
+            "win": 0,
+            "matches": 5
+        },
+        "IND": {
+            "win": 3,
+            "matches": 5
+        },
+        "CZE": {
+            "win": 3,
+            "matches": 3
+        },
+        "SVK": {
+            "win": 1,
+            "matches": 1
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "ITA": {
+            "win": 2,
+            "matches": 3
+        },
+        "DEN": {
+            "win": 2,
+            "matches": 10
+        },
+        "FRA": {
+            "win": 3,
+            "matches": 8
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 2
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 3
+        },
+        "ENG": {
+            "win": 2,
+            "matches": 3
+        },
+        "JPN": {
+            "win": 2,
+            "matches": 3
+        },
+        "SWE": {
+            "win": 1,
+            "matches": 2
+        },
+        "BEL": {
+            "win": 2,
+            "matches": 2
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "MDA": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 6
+        },
+        "SGP": {
+            "win": 0,
+            "matches": 2
+        },
+        "GER": {
+            "win": 3,
+            "matches": 5
+        },
+        "HUN": {
+            "win": 2,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 2,
+            "matches": 3
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 2
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "BRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 2,
+            "matches": 3
+        },
+        "EST": {
+            "win": 1,
+            "matches": 2
+        },
+        "MRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "AUT": {
+        "win": 13,
+        "matches": 44,
+        "FIN": {
+            "win": 0,
+            "matches": 2
+        },
+        "GER": {
+            "win": 4,
+            "matches": 7
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 5
+        },
+        "RUS": {
+            "win": 3,
+            "matches": 3
+        },
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 4
+        },
+        "IND": {
+            "win": 0,
+            "matches": 3
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 2
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 3,
+            "matches": 4
+        },
+        "ITA": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 2
+        },
+        "NZL": {
+            "win": 0,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 2
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "BUL": {
+        "win": 107,
+        "matches": 195,
+        "BEL": {
+            "win": 2,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 2
+        },
+        "IND": {
+            "win": 3,
+            "matches": 12
+        },
+        "MAS": {
+            "win": 3,
+            "matches": 5
+        },
+        "CHN": {
+            "win": 7,
+            "matches": 16
+        },
+        "CZE": {
+            "win": 2,
+            "matches": 2
+        },
+        "ENG": {
+            "win": 4,
+            "matches": 8
+        },
+        "SVK": {
+            "win": 3,
+            "matches": 3
+        },
+        "AZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 10,
+            "matches": 15
+        },
+        "FRA": {
+            "win": 10,
+            "matches": 15
+        },
+        "DEN": {
+            "win": 11,
+            "matches": 18
+        },
+        "JPN": {
+            "win": 7,
+            "matches": 20
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 3
+        },
+        "NED": {
+            "win": 6,
+            "matches": 7
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 4
+        },
+        "EST": {
+            "win": 0,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 3,
+            "matches": 6
+        },
+        "RUS": {
+            "win": 2,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 2,
+            "matches": 3
+        },
+        "THA": {
+            "win": 7,
+            "matches": 10
+        },
+        "HUN": {
+            "win": 2,
+            "matches": 2
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 2
+        },
+        "INA": {
+            "win": 7,
+            "matches": 11
+        },
+        "KOR": {
+            "win": 3,
+            "matches": 14
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 2,
+            "matches": 2
+        },
+        "HKG": {
+            "win": 3,
+            "matches": 3
+        },
+        "NZL": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "BEL": {
+        "win": 28,
+        "matches": 96,
+        "BUL": {
+            "win": 0,
+            "matches": 2
+        },
+        "IND": {
+            "win": 3,
+            "matches": 10
+        },
+        "GER": {
+            "win": 3,
+            "matches": 11
+        },
+        "CZE": {
+            "win": 3,
+            "matches": 3
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 0,
+            "matches": 1
+        },
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 8
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 1,
+            "matches": 6
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 2,
+            "matches": 11
+        },
+        "NED": {
+            "win": 0,
+            "matches": 4
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 4
+        },
+        "FRA": {
+            "win": 3,
+            "matches": 6
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 2
+        },
+        "THA": {
+            "win": 0,
+            "matches": 5
+        },
+        "RUS": {
+            "win": 2,
+            "matches": 3
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 2
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 2
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "EST": {
+            "win": 1,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 1
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "UKR": {
+        "win": 14,
+        "matches": 48,
+        "FRA": {
+            "win": 2,
+            "matches": 5
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 4
+        },
+        "POR": {
+            "win": 1,
+            "matches": 1
+        },
+        "ALG": {
+            "win": 1,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 0,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 4
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 3
+        },
+        "THA": {
+            "win": 1,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 4
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 2
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 2
+        },
+        "IND": {
+            "win": 0,
+            "matches": 2
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 2,
+            "matches": 4
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 3
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "CRO": {
+        "win": 6,
+        "matches": 15,
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "POR": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 1,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "BEN": {
+        "win": 0,
+        "matches": 1,
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "IRL": {
+        "win": 60,
+        "matches": 148,
+        "IND": {
+            "win": 5,
+            "matches": 11
+        },
+        "ENG": {
+            "win": 6,
+            "matches": 17
+        },
+        "GER": {
+            "win": 8,
+            "matches": 16
+        },
+        "PYF": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 7,
+            "matches": 14
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 2
+        },
+        "CHN": {
+            "win": 1,
+            "matches": 5
+        },
+        "CZE": {
+            "win": 2,
+            "matches": 3
+        },
+        "SWE": {
+            "win": 5,
+            "matches": 6
+        },
+        "RUS": {
+            "win": 3,
+            "matches": 7
+        },
+        "DEN": {
+            "win": 5,
+            "matches": 8
+        },
+        "NED": {
+            "win": 1,
+            "matches": 5
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 6
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 1
+        },
+        "THA": {
+            "win": 1,
+            "matches": 5
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 5
+        },
+        "INA": {
+            "win": 0,
+            "matches": 5
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 2
+        },
+        "EST": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 1
+        },
+        "POL": {
+            "win": 3,
+            "matches": 6
+        },
+        "BUL": {
+            "win": 1,
+            "matches": 2
+        },
+        "NOR": {
+            "win": 1,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 5
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 5
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "POR": {
+        "win": 0,
+        "matches": 10,
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "PYF": {
+        "win": 3,
+        "matches": 4,
+        "ENG": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 2,
+            "matches": 2
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "ALG": {
+        "win": 2,
+        "matches": 17,
+        "ENG": {
+            "win": 1,
+            "matches": 3
+        },
+        "IND": {
+            "win": 0,
+            "matches": 2
+        },
+        "UKR": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 1
+        },
+        "CZE": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 3
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 2
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MAR": {
+        "win": 0,
+        "matches": 2,
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SVK": {
+        "win": 5,
+        "matches": 26,
+        "FIN": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 3
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 5
+        },
+        "IND": {
+            "win": 1,
+            "matches": 2
+        },
+        "INA": {
+            "win": 0,
+            "matches": 3
+        },
+        "SUI": {
+            "win": 2,
+            "matches": 2
+        },
+        "HUN": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 2
+        },
+        "EST": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "ITA": {
+        "win": 6,
+        "matches": 34,
+        "FIN": {
+            "win": 1,
+            "matches": 3
+        },
+        "INA": {
+            "win": 1,
+            "matches": 4
+        },
+        "IND": {
+            "win": 1,
+            "matches": 4
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 3
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 2
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 4
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 0,
+            "matches": 2
+        },
+        "GER": {
+            "win": 0,
+            "matches": 2
+        },
+        "THA": {
+            "win": 0,
+            "matches": 2
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "CHI": {
+        "win": 0,
+        "matches": 2,
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "NZL": {
+        "win": 5,
+        "matches": 85,
+        "THA": {
+            "win": 0,
+            "matches": 4
+        },
+        "INA": {
+            "win": 0,
+            "matches": 12
+        },
+        "IND": {
+            "win": 1,
+            "matches": 7
+        },
+        "SRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "LUX": {
+            "win": 0,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 2
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 6
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 5
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 8
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 2
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 0,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 8
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 3
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 8
+        },
+        "GER": {
+            "win": 1,
+            "matches": 3
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 4
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 2
+        }
+    },
+    "AUS": {
+        "win": 34,
+        "matches": 150,
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 2,
+            "matches": 15
+        },
+        "INA": {
+            "win": 2,
+            "matches": 12
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 3
+        },
+        "JPN": {
+            "win": 1,
+            "matches": 13
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 13
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 2,
+            "matches": 7
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 3
+        },
+        "IND": {
+            "win": 2,
+            "matches": 8
+        },
+        "CRO": {
+            "win": 0,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 4,
+            "matches": 5
+        },
+        "TPE": {
+            "win": 8,
+            "matches": 21
+        },
+        "SLO": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 3,
+            "matches": 9
+        },
+        "KOR": {
+            "win": 1,
+            "matches": 20
+        },
+        "USA": {
+            "win": 2,
+            "matches": 3
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 2
+        },
+        "PHI": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 2,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 3
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 2
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 2
+        }
+    },
+    "LUX": {
+        "win": 3,
+        "matches": 13,
+        "AUS": {
+            "win": 0,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 1,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 2,
+            "matches": 3
+        },
+        "ROU": {
+            "win": 0,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SRI": {
+        "win": 8,
+        "matches": 16,
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "NZL": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 2,
+            "matches": 6
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "TTO": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 2
+        },
+        "ISR": {
+            "win": 1,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SGP": {
+        "win": 81,
+        "matches": 186,
+        "AUS": {
+            "win": 2,
+            "matches": 3
+        },
+        "INA": {
+            "win": 8,
+            "matches": 30
+        },
+        "THA": {
+            "win": 9,
+            "matches": 17
+        },
+        "TPE": {
+            "win": 10,
+            "matches": 13
+        },
+        "FRA": {
+            "win": 3,
+            "matches": 6
+        },
+        "KOR": {
+            "win": 5,
+            "matches": 9
+        },
+        "JPN": {
+            "win": 7,
+            "matches": 19
+        },
+        "IND": {
+            "win": 10,
+            "matches": 20
+        },
+        "FIN": {
+            "win": 2,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 2,
+            "matches": 8
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 2
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 3
+        },
+        "CHN": {
+            "win": 10,
+            "matches": 26
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 3
+        },
+        "MAS": {
+            "win": 4,
+            "matches": 13
+        },
+        "USA": {
+            "win": 3,
+            "matches": 4
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 3,
+            "matches": 3
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 2
+        }
+    },
+    "TTO": {
+        "win": 0,
+        "matches": 3,
+        "USA": {
+            "win": 0,
+            "matches": 1
+        },
+        "SRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SWE": {
+        "win": 29,
+        "matches": 83,
+        "THA": {
+            "win": 0,
+            "matches": 5
+        },
+        "GER": {
+            "win": 4,
+            "matches": 10
+        },
+        "FRA": {
+            "win": 1,
+            "matches": 6
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 2
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 9
+        },
+        "IND": {
+            "win": 2,
+            "matches": 5
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 6
+        },
+        "RUS": {
+            "win": 4,
+            "matches": 4
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 5,
+            "matches": 8
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 6
+        },
+        "USA": {
+            "win": 0,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 4
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 1,
+            "matches": 4
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 4,
+            "matches": 4
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 2,
+            "matches": 2
+        }
+    },
+    "PHI": {
+        "win": 2,
+        "matches": 7,
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 3
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 1,
+            "matches": 1
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "GUA": {
+        "win": 0,
+        "matches": 1,
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "HUN": {
+        "win": 6,
+        "matches": 30,
+        "JPN": {
+            "win": 0,
+            "matches": 3
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 3
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 0,
+            "matches": 2
+        },
+        "IND": {
+            "win": 0,
+            "matches": 4
+        },
+        "EST": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "SVK": {
+            "win": 0,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 2
+        },
+        "RUS": {
+            "win": 2,
+            "matches": 2
+        },
+        "USA": {
+            "win": 0,
+            "matches": 1
+        },
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 2
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MGL": {
+        "win": 0,
+        "matches": 2,
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "NEP": {
+        "win": 0,
+        "matches": 4,
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MYA": {
+        "win": 1,
+        "matches": 6,
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 1,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 1
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MRI": {
+        "win": 4,
+        "matches": 18,
+        "IND": {
+            "win": 1,
+            "matches": 5
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 2
+        },
+        "INA": {
+            "win": 0,
+            "matches": 2
+        },
+        "VIE": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 2
+        },
+        "LAT": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "ISL": {
+        "win": 0,
+        "matches": 2,
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "EST": {
+        "win": 16,
+        "matches": 48,
+        "ESP": {
+            "win": 2,
+            "matches": 3
+        },
+        "FRA": {
+            "win": 2,
+            "matches": 4
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 2
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 3
+        },
+        "IND": {
+            "win": 4,
+            "matches": 4
+        },
+        "RUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 1,
+            "matches": 5
+        },
+        "SUI": {
+            "win": 1,
+            "matches": 2
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        },
+        "HUN": {
+            "win": 0,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 2
+        },
+        "BUL": {
+            "win": 2,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 3
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 3
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 2
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        },
+        "SVK": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 2
+        },
+        "KOR": {
+            "win": 1,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "TUR": {
+        "win": 26,
+        "matches": 52,
+        "FRA": {
+            "win": 1,
+            "matches": 3
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 3
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 5
+        },
+        "GER": {
+            "win": 2,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 5,
+            "matches": 6
+        },
+        "WAL": {
+            "win": 1,
+            "matches": 1
+        },
+        "SUI": {
+            "win": 3,
+            "matches": 3
+        },
+        "MAS": {
+            "win": 1,
+            "matches": 2
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 3,
+            "matches": 4
+        },
+        "NED": {
+            "win": 2,
+            "matches": 3
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 3
+        },
+        "USA": {
+            "win": 2,
+            "matches": 3
+        },
+        "INA": {
+            "win": 1,
+            "matches": 2
+        },
+        "JPN": {
+            "win": 1,
+            "matches": 4
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 0,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 0,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "MAC": {
+        "win": 1,
+        "matches": 19,
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 1,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 6
+        },
+        "THA": {
+            "win": 0,
+            "matches": 6
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 2
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MDA": {
+        "win": 0,
+        "matches": 2,
+        "FIN": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "ROU": {
+        "win": 2,
+        "matches": 6,
+        "LUX": {
+            "win": 1,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 2
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 1
+        },
+        "UZB": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SCO": {
+        "win": 58,
+        "matches": 147,
+        "SUI": {
+            "win": 1,
+            "matches": 2
+        },
+        "AUT": {
+            "win": 1,
+            "matches": 4
+        },
+        "ENG": {
+            "win": 7,
+            "matches": 17
+        },
+        "CHN": {
+            "win": 1,
+            "matches": 9
+        },
+        "DEN": {
+            "win": 7,
+            "matches": 21
+        },
+        "THA": {
+            "win": 2,
+            "matches": 7
+        },
+        "INA": {
+            "win": 3,
+            "matches": 5
+        },
+        "CAN": {
+            "win": 3,
+            "matches": 6
+        },
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 4,
+            "matches": 14
+        },
+        "TPE": {
+            "win": 1,
+            "matches": 7
+        },
+        "CZE": {
+            "win": 1,
+            "matches": 1
+        },
+        "USA": {
+            "win": 3,
+            "matches": 5
+        },
+        "IND": {
+            "win": 2,
+            "matches": 5
+        },
+        "BEL": {
+            "win": 2,
+            "matches": 2
+        },
+        "TUR": {
+            "win": 1,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 5,
+            "matches": 5
+        },
+        "UKR": {
+            "win": 1,
+            "matches": 1
+        },
+        "FIN": {
+            "win": 1,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 2,
+            "matches": 5
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 3
+        },
+        "SGP": {
+            "win": 1,
+            "matches": 1
+        },
+        "BUL": {
+            "win": 1,
+            "matches": 1
+        },
+        "ESP": {
+            "win": 1,
+            "matches": 1
+        },
+        "GER": {
+            "win": 3,
+            "matches": 11
+        },
+        "SWE": {
+            "win": 0,
+            "matches": 4
+        },
+        "NED": {
+            "win": 1,
+            "matches": 4
+        },
+        "POL": {
+            "win": 1,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 1,
+            "matches": 1
+        },
+        "DOM": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "AZE": {
+        "win": 1,
+        "matches": 10,
+        "MAS": {
+            "win": 1,
+            "matches": 3
+        },
+        "BUL": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 3
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "VEN": {
+        "win": 0,
+        "matches": 1,
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "LAO": {
+        "win": 0,
+        "matches": 1,
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SRB": {
+        "win": 0,
+        "matches": 1,
+        "IND": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SLO": {
+        "win": 2,
+        "matches": 5,
+        "CAN": {
+            "win": 1,
+            "matches": 2
+        },
+        "AUS": {
+            "win": 1,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "MEX": {
+        "win": 1,
+        "matches": 6,
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        }
+    },
+    "DOM": {
+        "win": 0,
+        "matches": 9,
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "SCO": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "UZB": {
+        "win": 0,
+        "matches": 5,
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "ROU": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 2
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "SUR": {
+        "win": 0,
+        "matches": 2,
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "CUB": {
+        "win": 0,
+        "matches": 1,
+        "IND": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "BLR": {
+        "win": 0,
+        "matches": 2,
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "LAT": {
+        "win": 0,
+        "matches": 8,
+        "USA": {
+            "win": 0,
+            "matches": 2
+        },
+        "MRI": {
+            "win": 0,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "NED": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "WAL": {
+        "win": 5,
+        "matches": 16,
+        "ENG": {
+            "win": 1,
+            "matches": 1
+        },
+        "TUR": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 1,
+            "matches": 2
+        },
+        "GER": {
+            "win": 2,
+            "matches": 2
+        },
+        "SUI": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 1,
+            "matches": 2
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        },
+        "IND": {
+            "win": 0,
+            "matches": 1
+        },
+        "BEL": {
+            "win": 0,
+            "matches": 1
+        },
+        "JPN": {
+            "win": 0,
+            "matches": 1
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "ISR": {
+            "win": 0,
+            "matches": 1
+        },
+        "USA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "EGY": {
+        "win": 1,
+        "matches": 17,
+        "IND": {
+            "win": 0,
+            "matches": 4
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 0,
+            "matches": 1
+        },
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 2
+        },
+        "USA": {
+            "win": 1,
+            "matches": 1
+        },
+        "KOR": {
+            "win": 0,
+            "matches": 1
+        },
+        "INA": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 2
+        },
+        "CAN": {
+            "win": 0,
+            "matches": 1
+        },
+        "TPE": {
+            "win": 0,
+            "matches": 1
+        },
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "PER": {
+        "win": 1,
+        "matches": 7,
+        "USA": {
+            "win": 0,
+            "matches": 1
+        },
+        "CHN": {
+            "win": 0,
+            "matches": 2
+        },
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "GER": {
+            "win": 1,
+            "matches": 1
+        },
+        "RUS": {
+            "win": 0,
+            "matches": 1
+        },
+        "DEN": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "UGA": {
+        "win": 0,
+        "matches": 1,
+        "IND": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "IRI": {
+        "win": 0,
+        "matches": 1,
+        "MAS": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "NOR": {
+        "win": 0,
+        "matches": 2,
+        "FRA": {
+            "win": 0,
+            "matches": 1
+        },
+        "IRL": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "NGR": {
+        "win": 0,
+        "matches": 2,
+        "ENG": {
+            "win": 0,
+            "matches": 1
+        },
+        "THA": {
+            "win": 0,
+            "matches": 1
+        }
+    },
+    "BRN": {
+        "win": 0,
+        "matches": 1,
+        "HKG": {
+            "win": 0,
+            "matches": 1
+        }
+    }
+}

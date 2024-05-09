@@ -1,0 +1,90 @@
+{
+    "INA": {
+        "first": 58,
+        "second": 52
+    },
+    "MAS": {
+        "first": 17,
+        "second": 19
+    },
+    "DEN": {
+        "first": 29,
+        "second": 31
+    },
+    "JPN": {
+        "first": 85,
+        "second": 86
+    },
+    "CHN": {
+        "first": 85,
+        "second": 83
+    },
+    "TPE": {
+        "first": 35,
+        "second": 27
+    },
+    "IND": {
+        "first": 13,
+        "second": 20
+    },
+    "HKG": {
+        "first": 8,
+        "second": 5
+    },
+    "NED": {
+        "first": 3,
+        "second": 4
+    },
+    "KOR": {
+        "first": 42,
+        "second": 39
+    },
+    "THA": {
+        "first": 21,
+        "second": 27
+    },
+    "ENG": {
+        "first": 10,
+        "second": 9
+    },
+    "SGP": {
+        "first": 3,
+        "second": 2
+    },
+    "FRA": {
+        "first": 4,
+        "second": 7
+    },
+    "USA": {
+        "first": 1,
+        "second": 2
+    },
+    "ESP": {
+        "first": 8,
+        "second": 6
+    },
+    "CAN": {
+        "first": 2,
+        "second": 1
+    },
+    "SCO": {
+        "first": 2,
+        "second": 2
+    },
+    "RUS": {
+        "first": 3,
+        "second": 3
+    },
+    "GER": {
+        "first": 3,
+        "second": 9
+    },
+    "BUL": {
+        "first": 6,
+        "second": 5
+    },
+    "AUS": {
+        "first": 1,
+        "second": 0
+    }
+}

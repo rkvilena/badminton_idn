@@ -2,21 +2,32 @@ import React from "react";
 import { Chart } from "react-google-charts";
 import nationdata from "../../data/nationmatchstats.json";
 import {
-	gcode2NationalName,
 	gcode2Nat,
 	NationCodeMap,
 	NationsAllStats,
 } from "../../constant/nationcode";
+
+export const GeneralWinRate = ({
+	nationcode,
+}: Readonly<{ nationcode: string }>) => {
+	const datas = data(nationcode, gcode2Nat, nationdata);
+	return (
+		<Chart
+			chartType="BarChart"
+			width="100%"
+			data={datas}
+			options={options}
+		/>
+	);
+};
 
 function data(
 	ncode: string,
 	codemap: NationCodeMap,
 	datanation: NationsAllStats
 ) {
-	console.log(codemap);
 	const code = codemap[ncode];
 	const ndata = datanation[code];
-	console.log(ndata);
 	const win = ndata.win,
 		total = ndata.matches;
 	const data = [
@@ -49,18 +60,3 @@ const options = {
 	vAxis: { textPosition: "none" },
 	backgroundColor: "#d9d9d9",
 };
-
-export function GeneralWinRate({
-	nationcode,
-}: Readonly<{ nationcode: string }>) {
-	console.log(nationcode);
-	const datas = data(nationcode, gcode2Nat, nationdata);
-	return (
-		<Chart
-			chartType="BarChart"
-			width="100%"
-			data={datas}
-			options={options}
-		/>
-	);
-}

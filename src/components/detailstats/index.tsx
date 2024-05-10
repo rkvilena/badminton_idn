@@ -8,6 +8,7 @@ import {
 	getNationTitle,
 } from "../../constant/nationcode";
 import championsdata from "../../data/championstats.json";
+import { H2HWinStats } from "./h2hwinstats";
 
 const DetailStats = ({
 	nation,
@@ -40,8 +41,13 @@ const DetailStats = ({
 				</div>
 			</div>
 
-			<div>
+			<div className="pt-4">
+				<h3 className="w-full flex">Accumulated Win Rate</h3>
 				<GeneralWinRate nationcode={nation} />
+			</div>
+			<div className="pt-4">
+				<h3 className="w-full flex">Head-to-head</h3>
+				<H2HWinStats nationcode={nation} />
 			</div>
 		</div>
 	);

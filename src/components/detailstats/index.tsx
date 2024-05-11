@@ -9,7 +9,7 @@ import {
 } from "../../constant/nationcode";
 import championsdata from "../../data/championstats.json";
 import { H2HWinStats } from "./h2hwinstats";
-import { getNationAnnotate } from "./nationannotate";
+import { getNationAnnotate } from "../../constant/nationsannotate";
 
 const DetailStats = ({
 	nation,

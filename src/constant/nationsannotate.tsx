@@ -1,4 +1,4 @@
-import { NationCodeMap } from "../../constant/nationcode";
+import { NationCodeMap } from "./nationcode";
 
 export const nationAnnotation = {
 	CHN: "In tie with Japan as the most successful nation in BWF World Tour 2018-2020, as they has 85 titles with less runner-up status (83 times). Chen Yufei dominating the Women's Single sector in 2019 with 8 titles",

@@ -14,6 +14,7 @@ export const GeneralWinRate = ({
 	return (
 		<Chart
 			chartType="BarChart"
+			height="100%"
 			width="100%"
 			data={datas}
 			options={options}
@@ -34,16 +35,12 @@ function data(
 		[
 			"Winrate Accumulation",
 			"Win",
-			{ role: "style" },
 			"Lose",
-			{ role: "style" },
 		],
 		[
 			code,
 			win,
-			"fill-color: #ffffff; fill-opacity: 1; stroke-color: #cccccc; stroke-width: 2",
 			total - win,
-			"fill-color: #eb3b42; fill-opacity: 0.8; stroke-color: #dd0000; stroke-width: 2",
 		],
 	];
 	return data;
@@ -52,11 +49,27 @@ function data(
 const options = {
 	isStacked: "percent",
 	height: 100,
-	legend: { position: "none" },
+	legend: { 
+		position: "bottom",
+		textStyle: {
+			color: "#FFFFFF",
+		},
+	},
 	hAxis: {
 		minValue: 0,
-		ticks: [0, 0.25, 0.5, 0.75, 1],
+		textStyle: {
+			color: "#FFFFFF",
+		},
 	},
-	vAxis: { textPosition: "none" },
-	backgroundColor: "#d9d9d9",
+	colors: ['#3C50E0', '#FF0000'],
+	vAxis: {
+		textPosition: "none",
+	},
+	backgroundColor: "#1A222C",
+	chartArea: {
+		top: 0,
+		left: 0,
+		width: "100%",
+		height: "50%",
+	},
 };

@@ -82,9 +82,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
         arrdata.push([
             "Head-to-Head",
             "Wins",
-            { role: "style" },
             "Losses",
-            { role: "style" },
         ]);
         const code = codemap[ncode];
         const ndata = datanation[code].h2h;
@@ -93,9 +91,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
             const arr = [
                 "vs " + oppNation,
                 h2hStats.win,
-                "fill-color: #ffffff; fill-opacity: 1",
                 h2hStats.matches - h2hStats.win,
-                "fill-color: #eb3b42; fill-opacity: 1",
             ];
             arrdata.push(arr);
         }
@@ -106,11 +102,11 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
             let numB = b[1] as number;
 
             if (sortBy === "matches") {
-                numA += a[3] as number;
-                numB += b[3] as number;
+                numA += a[2] as number;
+                numB += b[2] as number;
             } else if (sortBy === "losses") {
-                numA = a[3] as number;
-                numB = b[3] as number;
+                numA = a[2] as number;
+                numB = b[2] as number;
             }
             return numB - numA;
         });
@@ -123,11 +119,12 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 
         if (show === "wins") {
             descendsort.forEach((item) => {
-                item.splice(3, 4);
+                item.splice(2);
             });
         } else if (show === "losses") {
             descendsort.forEach((item) => {
-                item.splice(1, 2);
+                console.log(item)
+                item.splice(1, 1);
             });
         }
 
@@ -136,13 +133,34 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 
     const options = {
         isStacked: "true",
-        legend: { position: "none" },
+        legend: { 
+            position: "top",
+            textStyle: {
+                color: "#FFFFFF",
+                fontSize: '10',
+            },
+        },
         hAxis: {
             minValue: 0,
-            ticks: [0, 0.25, 0.5, 0.75, 1],
+            textStyle: {
+                color: "#FFFFFF",
+            },
         },
-        backgroundColor: "#d9d9d9",
-        barWidth: 100,
+        vAxis: {
+            textStyle: {
+                color: "#FFFFFF",
+                fontSize: '10',
+            },
+        },
+        colors: ['#3C50E0', '#FF0000'],
+        chartArea: {
+            top: 20,
+            width: "70%",
+            height: "90%",
+        },
+        backgroundColor: "#1A222C",
+        barWidth: 50,
+        height: 500,
     };
 
     const sortByOptions = [
@@ -159,13 +177,13 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 
     return (
         <>
-            <div className="flex flex-col gap-4 my-4 w-fit">
+            <div className="flex flex-col w-full gap-4 mb-4">
                 <div className="flex items-center gap-4">
-                    <div className="flex flex-col items-start gap-2">
+                    <div className="flex flex-col items-start w-full gap-2">
                         <span className="text-xs">Sort By:</span>
-                        <div className="relative" data-twe-dropdown-ref>
+                        <div className="relative w-full" data-twe-dropdown-ref>
                             <button
-                                className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-[200px] text-sm font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
+                                className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-full text-sm font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
                                 type="button"
                                 id="dropdownMenuButton1"
                                 data-twe-dropdown-toggle-ref
@@ -208,7 +226,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
                                             }
                                         >
                                             <a
-                                                className="block w-full whitespace-nowrap bg-white pl-4 pr-8 py-2 text-sm font-normal text-black hover:bg-zinc-200/60 hover:text-black text-left"
+                                                className="block w-full py-2 pl-4 pr-8 text-sm font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
                                                 href="#"
                                                 data-twe-dropdown-item-ref
                                             >
@@ -267,7 +285,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
                                             }
                                         >
                                             <a
-                                                className="block w-full whitespace-nowrap bg-white pl-4 pr-8 py-2 text-sm font-normal text-black hover:bg-zinc-200/60 hover:text-black text-left"
+                                                className="block w-full py-2 pl-4 pr-8 text-sm font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
                                                 href="#"
                                                 data-twe-dropdown-item-ref
                                             >
@@ -308,20 +326,40 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
                         </span>
                     </div>
                     <div
-                        className="text-sm underline cursor-pointer pb-2"
+                        className="pb-2 text-sm underline cursor-pointer"
                         onClick={resetFilterSort}
                     >
                         Reset
                     </div>
                 </div>
             </div>
-            <Chart
-                chartType="BarChart"
-                width="100%"
-                height="500px"
-                data={datas}
-                options={options}
-            />
+            <div className="max-h-[400px] overflow-auto">
+                <Chart
+                    chartType="BarChart"
+                    width="100%"
+                    height="100%"
+                    data={datas}
+                    options={options}
+                    chartEvents={[
+                        {
+                        eventName: 'ready',
+                        callback: ({ chartWrapper, eventArgs }) => {
+                            const dataTable = chartWrapper.getDataTable();
+                            const height = dataTable ? dataTable.getNumberOfRows() * 50 : 500;
+                            if (parseInt(chartWrapper.getOption('height'), 10) != height) {
+                                chartWrapper.setOption('height', height);
+                                chartWrapper.draw();
+                            }
+                            const isChangeLabelColor = dataTable && dataTable.getColumnLabel(1) == 'Losses';
+                            if (isChangeLabelColor && JSON.stringify(chartWrapper.getOption('colors')) == JSON.stringify(['#3C50E0', '#FF0000'])) {
+                                chartWrapper.setOption('colors', ['#FF0000']);
+                                chartWrapper.draw();
+                            }
+                        },
+                        },
+                    ]}
+                />
+            </div>
         </>
     );
 }

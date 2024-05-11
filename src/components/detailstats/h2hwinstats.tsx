@@ -199,7 +199,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 				fontSize: "10",
 			},
 		},
-		colors: ["#3C50E0", "#FF0000"],
+		colors: ["#799FCB", "#F9665E"],
 		chartArea: {
 			top: 20,
 			width: "70%",
@@ -380,7 +380,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 					</div>
 				</div>
 			</div>
-			<div className="max-h-[400px] overflow-auto">
+			<div className="max-h-[300px] overflow-auto">
 				<Chart
 					chartType="BarChart"
 					width="100%"
@@ -411,10 +411,10 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 									isChangeLabelColor &&
 									JSON.stringify(
 										chartWrapper.getOption("colors")
-									) == JSON.stringify(["#3C50E0", "#FF0000"])
+									) == JSON.stringify(["#799FCB", "#F9665E"])
 								) {
 									chartWrapper.setOption("colors", [
-										"#FF0000",
+										"#F9665E",
 									]);
 									chartWrapper.draw();
 								}
@@ -422,7 +422,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 						},
 					]}
 				/>
-				<div className="text-sm text-justify pr-2 py-4">
+				<div className="py-4 pr-2 text-sm text-justify">
 					<b>{nationname}</b>'s most played opponent nation is{" "}
 					<b>{mostPlayedNat}</b>. Against <b>{mostWinAgainst}</b>,{" "}
 					{nationname} triumph their biggest number of win games

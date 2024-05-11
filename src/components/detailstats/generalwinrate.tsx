@@ -22,7 +22,7 @@ export const GeneralWinRate = ({
 				data={datas}
 				options={options}
 			/>
-			<div className="text-sm text-justify pt-2">
+			<div className="pt-2 text-sm text-justify">
 				<WinRateAnnotation
 					nation={nationcode}
 					win={datas[1][1] as number}
@@ -64,7 +64,7 @@ const options = {
 			color: "#FFFFFF",
 		},
 	},
-	colors: ["#3C50E0", "#FF0000"],
+	colors: ["#799FCB", "#F9665E"],
 	vAxis: {
 		textPosition: "none",
 	},

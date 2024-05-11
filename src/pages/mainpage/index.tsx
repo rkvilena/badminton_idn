@@ -15,23 +15,26 @@ export const MainPage = () => {
 			const arr = [keys[i], values[i].first];
 			result.push(arr);
 		}
-		return [["Nations", "Champions Count"], ...result];
-	}
-	
-	const changeNationFormat = (arr: string[], codemap: NationCodeMap): string[] => {
+		return [["Nations", "Champions Titles"], ...result];
+	};
+
+	const changeNationFormat = (
+		arr: string[],
+		codemap: NationCodeMap
+	): string[] => {
 		const result = [...arr];
 		for (let i = 0; i < result.length; i++) {
 			result[i] = codemap[result[i]];
 		}
 		return result;
-	}
-	
-    const processed = dataParser();
-    const [isDetailsOpen, setIsDetailsOpen] = useState(false);
-    const [nation, setNation] = useState<string | number>("ID");
-    const closeDetails = () => {
-        setIsDetailsOpen((prevState) => !prevState);
-    };
+	};
+
+	const processed = dataParser();
+	const [isDetailsOpen, setIsDetailsOpen] = useState(false);
+	const [nation, setNation] = useState<string | number>("ID");
+	const closeDetails = () => {
+		setIsDetailsOpen((prevState) => !prevState);
+	};
 
 	const options = {
 		colorAxis: { colors: ["#8FD0EF", "#3C50E0"] },
@@ -43,21 +46,25 @@ export const MainPage = () => {
 		},
 		legend: {
 			textStyle: {
-				color: '#151825',
+				color: "#151825",
 				bold: true,
-			}
+			},
 		},
 		chartArea: {
 			left: 0,
-            top: 0,
-            width: "80%",
-            height: "100%",
-        },
+			top: 0,
+			width: "80%",
+			height: "100%",
+		},
 	};
 
 	return (
 		<div className="flex h-full min-h-screen w-full gap-6 p-6 bg-[#1A222C]">
-			<div className={`flex flex-col ${isDetailsOpen ? 'w-2/3' : 'w-full'} h-full`}>
+			<div
+				className={`flex flex-col ${
+					isDetailsOpen ? "w-2/3" : "w-full"
+				} h-full`}
+			>
 				{/* <h3 className="text-3xl font-bold text-left text-[#FFFFFF]">{title}</h3> */}
 				<div className="w-full h-full m-auto rounded-sm p-5 border border-[#2E3A47] bg-[#24303F]">
 					<h4 className="mb-2 text-3xl font-bold text-left text-white font-montserrat">
@@ -72,11 +79,15 @@ export const MainPage = () => {
 									const chart = chartWrapper.getChart();
 									const selection = chart.getSelection();
 									if (selection.length === 0) return;
-									const region = processed[selection[0].row + 1];
+									const region =
+										processed[selection[0].row + 1];
 									setNation(region[0]);
 									setIsDetailsOpen(true);
-									
-									console.log("DEBUG:", chartWrapper.getOptions());
+
+									console.log(
+										"DEBUG:",
+										chartWrapper.getOptions()
+									);
 									// chartWrapper.setOption('chart', { width: '100%' });
 									// console.log("DEBUG:", chartWrapper.getOptions());
 								},
@@ -88,7 +99,7 @@ export const MainPage = () => {
 						data={processed}
 						options={options}
 						style={{ margin: "0 auto" }} // Center the chart using CSS
-						/>
+					/>
 				</div>
 			</div>
 			{isDetailsOpen && (

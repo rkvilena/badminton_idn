@@ -77,8 +77,9 @@ export const MainPage = () => {
 						The <b>Badminton World Federation (BWF)</b> is the
 						international governing body for the sport of badminton
 						recognised by the International Olympic Committee.
-						Here's a <b>champions distribution</b> maps that how
-						many times they won a titles in 2018-2021 period.
+						Here's a <b>champions distribution</b> map that show
+						nation's title count in 2018-2021 period.{" "}
+						<b>Click the nation</b> on the map to see more.
 					</p>
 					<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
 					<Chart
@@ -97,7 +98,7 @@ export const MainPage = () => {
 							},
 						]}
 						chartType="GeoChart"
-						height="90%"
+						height="88%"
 						data={processed}
 						options={options}
 						style={{ margin: "0 auto" }} // Center the chart using CSS
@@ -105,8 +106,11 @@ export const MainPage = () => {
 				</div>
 				<div className="w-full h-12 items-center rounded-sm p-2 border border-[#2E3A47] flex bg-[#24303F]/50 justify-center">
 					<p className="text-xs text-center text-white font-montserrat">
-						<b>Source</b>: <a href="https://www.kaggle.com/datasets/sanderp/badminton-bwf-world-tour">Badminton BWF World Tour Dataset - by SanderP</a>
-						<br/>
+						<b>Source</b>:{" "}
+						<a href="https://www.kaggle.com/datasets/sanderp/badminton-bwf-world-tour">
+							Badminton BWF World Tour Dataset - by SanderP
+						</a>
+						<br />
 						<b>Authors</b>: 13520074 - Eiffel Aqila Amarendra,
 						13520084 - Adelline Kania Setiyawan, 13520134 - Raka
 						Wirabuana Ninagan

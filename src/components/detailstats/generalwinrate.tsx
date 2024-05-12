@@ -92,7 +92,7 @@ const WinRateAnnotation = ({
 			{win > lose
 				? `${natname} has more than 50% win from their ${
 						win + lose
-				  } games. Good number based on result-based judgement`
+				  } games. Good number based on result-based judgement.`
 				: `Has more loses than win games in their ${
 						win + lose
 				  } games, ${natname} is one of many nations that has a underwhelming performance despite their title(s) achievement.`}

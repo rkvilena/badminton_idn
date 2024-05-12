@@ -62,11 +62,24 @@ export const MainPage = () => {
 				<div className="w-full h-[calc(100vh-6.5rem)] m-auto rounded-sm p-5 border border-[#2E3A47] bg-[#24303F]/50">
 					<div className="flex items-center gap-2 mb-2">
 						<h4 className="text-3xl font-bold text-left text-white font-montserrat">
-							World Badminton Performance in
+							World Performance in
 						</h4>
-						<img src="/bwf-logo.png" className="h-[30px]"></img>
+						<img
+							src="/bwf-logo.png"
+							alt="BWF"
+							className="h-[30px]"
+						/>
+						<h4 className="text-3xl font-bold text-left text-white font-montserrat">
+							WT 2018-2020
+						</h4>
 					</div>
-					<p className="text-sm text-left text-white font-montserrat">The <b>Badminton World Federation (BWF)</b> is the international governing body for the sport of badminton recognised by the International Olympic Committee.</p>
+					<p className="text-sm text-left text-white font-montserrat">
+						The <b>Badminton World Federation (BWF)</b> is the
+						international governing body for the sport of badminton
+						recognised by the International Olympic Committee.
+						Here's a <b>champions distribution</b> maps that how
+						many times they won a titles in 2018-2020 period.
+					</p>
 					<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
 					<Chart
 						chartEvents={[
@@ -91,7 +104,11 @@ export const MainPage = () => {
 					/>
 				</div>
 				<div className="w-full h-8 items-center rounded-sm p-2 border border-[#2E3A47] flex bg-[#24303F]/50 justify-center">
-					<p className="text-xs text-left text-white font-montserrat"><b>Authors</b>: 13520074 - Eiffel Aqila Amarendra, 13520084 - Adelline Kania Setiyawan, 13520134 - Raka Wirabuana Ninagan</p>
+					<p className="text-xs text-left text-white font-montserrat">
+						<b>Authors</b>: 13520074 - Eiffel Aqila Amarendra,
+						13520084 - Adelline Kania Setiyawan, 13520134 - Raka
+						Wirabuana Ninagan
+					</p>
 				</div>
 			</div>
 			{isDetailsOpen && (

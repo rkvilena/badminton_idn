@@ -21,7 +21,7 @@ export const nationAnnotation = {
 	SCO: "Won 2 titles with 2 times as a runner-up.",
 	RUS: "Won 3 titles with 3 times as a runner-up.",
 	GER: "Won 3 titles with 9 times as a runner-up.",
-	BUL: "Won 6 titles with 5 times as a runner-up. Stoeva Sisters as the superstar pair for Bulgaria",
+	BUL: "Won 6 titles with 5 times as a runner-up. Stoeva Sisters as the superstar pair for Bulgaria.",
 	AUS: "Won 1 title without ever touching a runner-up place.",
 };
 

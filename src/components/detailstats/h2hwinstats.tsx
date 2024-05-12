@@ -191,6 +191,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 			minValue: 0,
 			textStyle: {
 				color: "#FFFFFF",
+				fontSize: "10",
 			},
 		},
 		vAxis: {
@@ -202,12 +203,13 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 		colors: ["#799FCB", "#F9665E"],
 		chartArea: {
 			top: 20,
+			bottom: 20,
 			width: "70%",
-			height: "90%",
+			height: "70%",
 		},
 		backgroundColor: "#1A222C",
 		barWidth: 50,
-		height: 500,
+		height: 250,
 	};
 
 	const sortByOptions = [
@@ -393,7 +395,10 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 							callback: ({ chartWrapper, eventArgs }) => {
 								const dataTable = chartWrapper.getDataTable();
 								const height = dataTable
-									? dataTable.getNumberOfRows() * 50
+									? Math.max(
+											dataTable.getNumberOfRows() * 50,
+											100
+									  )
 									: 250;
 								if (
 									parseInt(
@@ -426,8 +431,8 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 			<div className="py-4 text-xs text-justify text-white font-montserrat">
 				<b>{nationname}</b>'s most played opponent nation is{" "}
 				<b>{mostPlayedNat}</b>. Against <b>{mostWinAgainst}</b>,{" "}
-				{nationname} triumph their biggest number of win games
-				compared against any other nation, while{" "}
+				{nationname} triumph their biggest number of win games compared
+				against any other nation, while{" "}
 				{mostWinAgainst == mostLoseAgainst ? (
 					"the very same nation "
 				) : (

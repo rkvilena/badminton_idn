@@ -59,7 +59,7 @@ export const gcode2NationalName = {
 	TW: "Taiwan",
 	IN: "India",
 	HK: "Hong Kong",
-	NE: "Netherlands",
+	NL: "Netherlands",
 	KR: "South Korea",
 	TH: "Thailand",
 	GB: "Great Britain",

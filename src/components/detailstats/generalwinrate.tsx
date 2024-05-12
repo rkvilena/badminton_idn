@@ -22,7 +22,7 @@ export const GeneralWinRate = ({
 				data={datas}
 				options={options}
 			/>
-			<div className="pt-2 text-sm text-justify">
+			<div className="pt-4 text-xs text-justify text-white font-montserrat">
 				<WinRateAnnotation
 					nation={nationcode}
 					win={datas[1][1] as number}

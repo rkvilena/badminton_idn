@@ -17,7 +17,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 	const nationname = convertNationCode(nationcode, gcode2NationalName);
 
 	const [datas, setDatas] = useState(
-		data(nationcode, gcode2Nat, nationdata, "matches", 10, "all")
+		data(nationcode, gcode2Nat, nationdata, "matches", 5, "all")
 	);
 
 	const [totalH2h, setTotalH2h] = useState(0);
@@ -27,7 +27,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 
 	const [sortByValue, setSortByValue] = useState("matches");
 	const [showValue, setShowValue] = useState("all");
-	const [totalH2hValue, setTotalH2hValue] = useState(10);
+	const [totalH2hValue, setTotalH2hValue] = useState(5);
 
 	useEffect(() => {
 		setShowSortDropdown(false);
@@ -65,7 +65,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 		setShowValue("all");
 		setShowSortDropdown(false);
 		setShowValueDropdown(false);
-		setTotalH2hValue(10);
+		setTotalH2hValue(5);
 	}
 
 	function updateTotalH2hData(
@@ -191,6 +191,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 			minValue: 0,
 			textStyle: {
 				color: "#FFFFFF",
+				fontSize: "10",
 			},
 		},
 		vAxis: {
@@ -202,12 +203,13 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 		colors: ["#799FCB", "#F9665E"],
 		chartArea: {
 			top: 20,
+			bottom: 20,
 			width: "70%",
-			height: "90%",
+			height: "70%",
 		},
 		backgroundColor: "#1A222C",
 		barWidth: 50,
-		height: 500,
+		height: 250,
 	};
 
 	const sortByOptions = [
@@ -223,14 +225,14 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 	];
 
 	return (
-		<>
+		<div className="h-full">
 			<div className="flex flex-col w-full gap-4 mb-4">
 				<div className="flex items-center gap-4">
 					<div className="flex flex-col items-start w-full gap-2">
 						<span className="text-xs">Sort By:</span>
 						<div className="relative w-full" data-twe-dropdown-ref>
 							<button
-								className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-full text-sm font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
+								className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-full text-xs font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
 								type="button"
 								id="dropdownMenuButton1"
 								data-twe-dropdown-toggle-ref
@@ -273,7 +275,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 											}
 										>
 											<a
-												className="block w-full py-2 pl-4 pr-8 text-sm font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
+												className="block w-full py-2 pl-4 pr-8 text-xs font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
 												href="#"
 												data-twe-dropdown-item-ref
 											>
@@ -289,7 +291,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 						<span className="text-xs">Show Attributes:</span>
 						<div className="relative" data-twe-dropdown-ref>
 							<button
-								className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-[106px] text-sm font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
+								className="flex items-center justify-between rounded bg-primary pl-4 pr-6 pb-2 pt-2.5 w-[106px] text-xs font-medium leading-normal text-white transition duration-150 ease-in-out border-white focus:outline-none focus:ring-0 hover:border hover:border-red-500 focus:border-red-500"
 								type="button"
 								id="dropdownMenuButton1"
 								data-twe-dropdown-toggle-ref
@@ -332,7 +334,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 											}
 										>
 											<a
-												className="block w-full py-2 pl-4 pr-8 text-sm font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
+												className="block w-full py-2 pl-4 pr-8 text-xs font-normal text-left text-black bg-white whitespace-nowrap hover:bg-zinc-200/60 hover:text-black"
 												href="#"
 												data-twe-dropdown-item-ref
 											>
@@ -348,18 +350,18 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 				<div className="flex items-center justify-between gap-4">
 					<div className="flex flex-col items-start gap-2">
 						<div className="flex items-center gap-2">
-							<span className="text-sm">Show</span>
+							<span className="text-xs">Show</span>
 							<input
 								className="shadow appearance-none border rounded w-[72px] py-2 px-3 text-xs text-white leading-tight focus:outline-none focus:shadow-outline"
 								id="total-h2h"
 								type="number"
-								placeholder="10"
+								placeholder="5"
 								value={totalH2hValue}
 								onChange={(e) => {
 									setTotalH2hValue(parseInt(e.target.value));
 								}}
 							></input>
-							<span className="text-sm">
+							<span className="text-xs">
 								from {totalH2h} data
 							</span>
 						</div>
@@ -373,7 +375,7 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 						</span>
 					</div>
 					<div
-						className="pb-2 text-sm underline cursor-pointer"
+						className="pb-2 text-xs underline cursor-pointer"
 						onClick={resetFilterSort}
 					>
 						Reset
@@ -393,8 +395,11 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 							callback: ({ chartWrapper, eventArgs }) => {
 								const dataTable = chartWrapper.getDataTable();
 								const height = dataTable
-									? dataTable.getNumberOfRows() * 50
-									: 500;
+									? Math.max(
+											dataTable.getNumberOfRows() * 50,
+											100
+									  )
+									: 250;
 								if (
 									parseInt(
 										chartWrapper.getOption("height"),
@@ -422,19 +427,19 @@ export function H2HWinStats({ nationcode }: Readonly<{ nationcode: string }>) {
 						},
 					]}
 				/>
-				<div className="py-4 pr-2 text-sm text-justify">
-					<b>{nationname}</b>'s most played opponent nation is{" "}
-					<b>{mostPlayedNat}</b>. Against <b>{mostWinAgainst}</b>,{" "}
-					{nationname} triumph their biggest number of win games
-					compared against any other nation, while{" "}
-					{mostWinAgainst == mostLoseAgainst ? (
-						"the very same nation "
-					) : (
-						<b>{mostLoseAgainst}</b>
-					)}{" "}
-					beat them the most.
-				</div>
 			</div>
-		</>
+			<div className="py-4 text-xs text-justify text-white font-montserrat">
+				<b>{nationname}</b>'s most played opponent nation is{" "}
+				<b>{mostPlayedNat}</b>. Against <b>{mostWinAgainst}</b>,{" "}
+				{nationname} triumph their biggest number of win games compared
+				against any other nation, while{" "}
+				{mostWinAgainst == mostLoseAgainst ? (
+					"the very same nation "
+				) : (
+					<b>{mostLoseAgainst}</b>
+				)}{" "}
+				beat them the most.
+			</div>
+		</div>
 	);
 }

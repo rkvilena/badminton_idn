@@ -21,12 +21,8 @@ const DetailStats = ({
 	let convertedcode = convertNationCode(nation, gcode2Nat);
 	let titles1st = getNationTitle(convertedcode, championsdata).first;
 	return (
-		<div className="flex flex-col w-1/3 h-[85vh] overflow-auto font-montserrat bg-[#24303F]">
-			<div className="w-full h-full flex flex-col m-auto gap-2 rounded-sm p-5 border border-[#2E3A47] bg-[#24303F]">
-				<h4 className="mb-2 text-xl font-semibold text-left text-white font-montserrat">
-					Detailed Country Badminton Performance
-				</h4>
-				<hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+		<div className="flex flex-col w-1/3 h-[calc(100vh-3rem)] overflow-auto font-montserrat bg-[#24303F]">
+			<div className="w-fullm-auto gap-2 rounded-sm p-5 border border-[#2E3A47] bg-[#24303F]">
 				<div className="flex flex-col">
 					{/* FLAG <img src="" alt="" /> */}
 					<div className="flex flex-row items-center justify-between">
@@ -39,29 +35,26 @@ const DetailStats = ({
 							onClick={toggle}
 						/>
 					</div>
-					<div className="flex font-bold">
-						<h2>Champions : {titles1st} Titles</h2>
-					</div>
-					<div className="flex pt-4 text-justify">
-						<h2>{getNationAnnotate(convertedcode)}</h2>
-					</div>
+					<h2 className="font-bold text-left">Champions : {titles1st} Titles</h2>
+					<p className="pt-4 text-sm text-justify text-white font-montserrat">{getNationAnnotate(convertedcode)}</p>
 				</div>
+				<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
 
 				<div className="w-full mt-4 m-auto rounded-sm p-5 border border-[#2E3A47] bg-[#1A222C]">
 					<h4 className="mb-2 font-semibold text-left text-white text-md font-montserrat">
 						Accumulated Win Rate
 					</h4>
-					<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+					<hr className="my-2 border-0 h-[1px] bg-gray-700"></hr>
 					<div className="w-full pt-4">
 						<GeneralWinRate nationcode={nation} />
 					</div>
 				</div>
-				<div className="w-full h-full m-auto rounded-sm p-5 border border-[#2E3A47] bg-[#1A222C]">
+				<div className="w-full mt-4 m-auto rounded-sm p-5 border border-[#2E3A47] bg-[#1A222C]">
 					<h4 className="mb-2 font-semibold text-left text-white text-md font-montserrat">
 						Head-to-head
 					</h4>
-					<hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-					<div className="w-full pt-4">
+					<hr className="my-2 border-0 h-[1px] bg-gray-700"></hr>
+					<div className="w-full pt-2">
 						<H2HWinStats nationcode={nation} />
 					</div>
 				</div>

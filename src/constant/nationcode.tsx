@@ -62,7 +62,7 @@ export const gcode2NationalName = {
 	NL: "Netherlands",
 	KR: "South Korea",
 	TH: "Thailand",
-	GB: "Great Britain",
+	GB: "England",
 	SG: "Singapore",
 	FR: "France",
 	US: "United States",

@@ -29,14 +29,18 @@ const DetailStats = ({
 						<h2 className="mb-2 text-3xl font-bold text-left text-white font-montserrat">
 							{convertNationCode(nation, gcode2NationalName)}
 						</h2>
-						<FaIcons.FaArrowCircleRight
+						<FaIcons.FaTimes
 							className="h-full hover:cursor-pointer"
 							style={{ fontSize: "30px" }}
 							onClick={toggle}
 						/>
 					</div>
-					<h2 className="font-bold text-left">Champions : {titles1st} Titles</h2>
-					<p className="pt-4 text-sm text-justify text-white font-montserrat">{getNationAnnotate(convertedcode)}</p>
+					<h2 className="font-bold text-left">
+						Champions : {titles1st} Titles
+					</h2>
+					<p className="pt-4 text-sm text-justify text-white font-montserrat">
+						{getNationAnnotate(convertedcode)}
+					</p>
 				</div>
 				<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
 

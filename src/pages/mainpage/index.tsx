@@ -63,7 +63,15 @@ export const MainPage = () => {
         return result;
     };
 
-    const processed = dataParser();
+    const handleChangeZoom = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setProcessed((prevProcessed) => {
+            const newProcessed = [...prevProcessed];
+            newProcessed[newProcessed.length - 1] = ["Zoom", parseFloat(event.target.value)];
+            return newProcessed;
+        })
+    }
+
+    const [processed, setProcessed] = useState([...dataParser(), ["Zoom", 1]]);
     const [isDetailsOpen, setIsDetailsOpen] = useState(false);
     const [nation, setNation] = useState<string | number>("ID");
     const closeDetails = () => {
@@ -71,19 +79,16 @@ export const MainPage = () => {
     };
 
     const options = {
-        colorAxis: { colors: ["#D7EFEF", "799FCB", "57558E"] },
+        colorAxis: { colors: ["#D7EFEF", "#799FCB", "#57558E"] },
         backgroundColor: "transparent",
         datalessRegionColor: "#FAF6F2",
         defaultColor: "#FAF6F2",
         haxis: {
             minValue: 0,
         },
-        legend: {
-            textStyle: {
-                color: "#151825",
-                bold: true,
-            },
-        },
+        legend: "none",
+        height: 365,
+        width: 700,
     };
 
     return (
@@ -117,13 +122,13 @@ export const MainPage = () => {
                         (shown in the map by a <b>white color</b>).
                     </p>
                     <hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
-                    <div className="flex items-start justify-center mb-4">
+                    <div className="flex items-start justify-center gap-4 mb-4">
                         <p className="px-4 py-2 text-sm text-left text-white bg-[#24303F] border border-white rounded-full font-montserrat">
                             <b>Click the nation</b> on the map to see more.
                         </p>
                         <div className="flex flex-col gap-1">
                             <input
-                                className="w-fit bg-[#24303F] shadow appearance-none border border-white font-montserrat py-2.5 px-3 ml-4 text-sm text-white-400 leading-tight focus:outline-none focus:shadow-outline"
+                                className="w-fit bg-[#24303F] shadow appearance-none border border-white font-montserrat py-2.5 px-3 text-sm text-white-365 leading-tight focus:outline-none focus:shadow-outline"
                                 id="nationname"
                                 type="text"
                                 placeholder="Search a nation name"
@@ -131,34 +136,62 @@ export const MainPage = () => {
                                 onKeyDown={handleSearchEnter}
                             />
                             {!isValidSearchTerm && (
-                                <span className="text-xs text-red-500 text-left ml-4">
+                                <span className="ml-4 text-xs text-left text-red-700">
                                     {searchTerm} is an invalid nation name, try{" "}
                                     <b>Indonesia</b>.
                                 </span>
                             )}
                         </div>
+                        <div className="flex flex-col items-start gap-2">
+                            <label htmlFor="zoom" className="text-sm text-left text-white font-montserrat">Zoom</label>
+                            <input id="zoom" type="range" min="1" max="5" defaultValue="1" onChange={handleChangeZoom} step="0.5" className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700" />
+                        </div>
                     </div>
-                    <Chart
-                        chartEvents={[
-                            {
-                                eventName: "select",
-                                callback: ({ chartWrapper, eventArgs }) => {
-                                    const chart = chartWrapper.getChart();
-                                    const selection = chart.getSelection();
-                                    if (selection.length === 0) return;
-                                    const region =
-                                        processed[selection[0].row + 1];
-                                    setNation(region[0]);
-                                    setIsDetailsOpen(true);
+                    <div className={`overflow-auto max-h-[35vh] ${isDetailsOpen ? "md:max-h-[45vh]" : "md:max-h-[50vh]"}`}>
+                        <Chart
+                            chartEvents={[
+                                {
+                                    eventName: "ready",
+                                    callback: ({ chartWrapper }) => {
+                                        const dataTable = chartWrapper.getDataTable();
+                                        const zoomValue = dataTable?.getValue(dataTable?.getNumberOfRows() - 1, 1)?.toString() ?? "1";
+                                        const zoomMultiplier = parseFloat(zoomValue);
+
+                                        const currentHeight = chartWrapper.getOption("height")
+                                        if (currentHeight !== Math.round(365 * zoomMultiplier)) {
+                                            chartWrapper.setOption("height", Math.round(365 * zoomMultiplier));
+                                            chartWrapper.setOption("width", Math.round(700 * zoomMultiplier));
+                                            chartWrapper.draw();
+                                        }
+                                    },
                                 },
-                            },
-                        ]}
-                        chartType="GeoChart"
-                        height="82%"
-                        data={processed}
-                        options={options}
-                        style={{ margin: "0 auto" }} // Center the chart using CSS
-                    />
+                                {
+                                    eventName: "select",
+                                    callback: ({ chartWrapper }) => {
+                                        const chart = chartWrapper.getChart();
+                                        const selection = chart.getSelection();
+                                        if (selection.length === 0) return;
+                                        const region =
+                                            processed[selection[0].row + 1];
+                                        setNation(region[0]);
+                                        setIsDetailsOpen(true);
+                                    },
+                                },
+                            ]}
+                            chartType="GeoChart"
+                            height="82%"
+                            data={processed}
+                            options={options}
+                            style={{
+                                margin: "0 auto",
+                            }}
+                        />
+                    </div>
+                    <div className="flex items-center justify-center gap-2 my-4">
+                        <p className="text-sm text-left text-white bg-[#24303F] font-montserrat font-bold">1</p>
+                        <div className="text-sm text-left bg-gradient-to-r from-[#D7EFEF] via-[#799FCB] to-[#57558E] w-[200px] h-[10px] font-montserrat" />
+                        <p className="text-sm text-left text-white bg-[#24303F] font-montserrat font-bold">85</p>
+                    </div>
                 </div>
                 <div className="w-full h-12 items-center rounded-sm p-2 border border-[#2E3A47] flex bg-[#24303F]/50 justify-center">
                     <p className="text-xs text-center text-white font-montserrat">

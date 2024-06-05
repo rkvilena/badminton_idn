@@ -78,8 +78,9 @@ export const MainPage = () => {
 						international governing body for the sport of badminton
 						recognised by the International Olympic Committee.
 						Here's a <b>champions distribution</b> map that show
-						nation's title count in 2018-2021 period.{" "}
-						<b>Click the nation</b> on the map to see more.
+						nation's title count in 2018-2021 period. Any nations
+						that never become a champions are not included here
+						(shown in the map by a <b>white color</b>).
 					</p>
 					<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
 					<div className="flex items-center justify-center mb-4">

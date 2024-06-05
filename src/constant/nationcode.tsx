@@ -18,7 +18,6 @@ export const nat2gcode = {
 	USA: "US",
 	ESP: "ES",
 	CAN: "CA",
-	SCO: "Scotland",
 	RUS: "RU",
 	GER: "DE",
 	BUL: "BG",
@@ -68,11 +67,34 @@ export const gcode2NationalName = {
 	US: "United States",
 	ES: "Spain",
 	CA: "Canada",
-	Scotland: "Scotland",
 	RU: "Russia",
 	DE: "Germany",
 	BG: "Bulgaria",
 	AU: "Australia",
+};
+
+export const nationalName2gcode = {
+	indonesia: "ID",
+	malaysia: "MY",
+	denmark: "DK",
+	japan: "JP",
+	china: "CN",
+	taiwan: "TW",
+	india: "IN",
+	"hong kong": "HK",
+	netherlands: "NL",
+	"South Korea": "KR",
+	thailand: "TH",
+	england: "GB",
+	singapore: "SG",
+	france: "FR",
+	"united states": "US",
+	spain: "ES",
+	canada: "CA",
+	russia: "RU",
+	germany: "DE",
+	bulgaria: "BG",
+	australia: "AU",
 };
 
 export function convertNationCode(nation: any, mapper: NationCodeMap) {

@@ -1,10 +1,36 @@
 import { Chart } from "react-google-charts";
 import championsdata from "../../data/championstats.json";
-import { nat2gcode, NationCodeMap } from "../../constant/nationcode";
+import {
+	convertNationCode,
+	nat2gcode,
+	nationalName2gcode,
+	NationCodeMap,
+} from "../../constant/nationcode";
 import { useState } from "react";
 import DetailStats from "../../components/detailstats";
 
 export const MainPage = () => {
+	const [searchTerm, setSearchTerm] = useState("");
+
+	const handleSearchEnter = (
+		event: React.KeyboardEvent<HTMLInputElement>
+	) => {
+		if (event.key === "Enter") {
+			let nat = convertNationCode(
+				searchTerm.toLowerCase(),
+				nationalName2gcode
+			);
+			console.log("Search term:", nat);
+			if (nat == undefined) return;
+			setNation(nat);
+			setIsDetailsOpen(true);
+		}
+	};
+
+	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+		setSearchTerm(event.target.value);
+	};
+
 	const dataParser = () => {
 		const data = championsdata;
 		let keys = Object.keys(data);
@@ -87,6 +113,14 @@ export const MainPage = () => {
 						<p className="px-4 py-2 text-sm text-left text-white bg-[#24303F] border border-white rounded-full font-montserrat">
 							<b>Click the nation</b> on the map to see more.
 						</p>
+						<input
+							className="bg-[#24303F] shadow appearance-none border border-white font-montserrat py-2 px-3 ml-4 text-sm text-white-400 leading-tight focus:outline-none focus:shadow-outline "
+							id="nationname"
+							type="text"
+							placeholder="Search a nation name"
+							onChange={handleInputChange}
+							onKeyDown={handleSearchEnter}
+						/>
 					</div>
 					<Chart
 						chartEvents={[

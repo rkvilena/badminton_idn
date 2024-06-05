@@ -37,10 +37,10 @@ export const MainPage = () => {
 	};
 
 	const options = {
-		colorAxis: { colors: ["#C9D9EA", "#799FCB"] },
+		colorAxis: { colors: ["#D7EFEF", "799FCB", "57558E"] },
 		backgroundColor: "transparent",
-		datalessRegionColor: "#EEF1E6",
-		defaultColor: "#EEF1E6",
+		datalessRegionColor: "#FAF6F2",
+		defaultColor: "#FAF6F2",
 		haxis: {
 			minValue: 0,
 		},
@@ -82,6 +82,11 @@ export const MainPage = () => {
 						<b>Click the nation</b> on the map to see more.
 					</p>
 					<hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
+					<div className="flex items-center justify-center mb-4">
+						<p className="px-4 py-2 text-sm text-left text-white bg-[#24303F] border border-white rounded-full font-montserrat">
+							<b>Click the nation</b> on the map to see more.
+						</p>
+					</div>
 					<Chart
 						chartEvents={[
 							{
@@ -98,7 +103,7 @@ export const MainPage = () => {
 							},
 						]}
 						chartType="GeoChart"
-						height="88%"
+						height="82%"
 						data={processed}
 						options={options}
 						style={{ margin: "0 auto" }} // Center the chart using CSS

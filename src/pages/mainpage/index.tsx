@@ -8,6 +8,7 @@ import {
 } from "../../constant/nationcode";
 import { useState } from "react";
 import DetailStats from "../../components/detailstats";
+import * as FaIcons from "react-icons/fa";
 
 export const MainPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -63,13 +64,35 @@ export const MainPage = () => {
         return result;
     };
 
-    const handleChangeZoom = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleIncrementZoom = () => {
         setProcessed((prevProcessed) => {
             const newProcessed = [...prevProcessed];
-            newProcessed[newProcessed.length - 1] = ["Zoom", parseFloat(event.target.value)];
+            const previousZoom = parseFloat(newProcessed[newProcessed.length - 1][1].toString());
+            if (previousZoom < 5) {
+                newProcessed[newProcessed.length - 1] = ["Zoom", previousZoom + 0.5];
+            }
             return newProcessed;
         })
-    }
+    };
+
+    const handleDecrementZoom = () => {
+        setProcessed((prevProcessed) => {
+            const newProcessed = [...prevProcessed];
+            const previousZoom = parseFloat(newProcessed[newProcessed.length - 1][1].toString());
+            if (previousZoom > 0) {
+                newProcessed[newProcessed.length - 1] = ["Zoom", previousZoom - 0.5];
+            }
+            return newProcessed;
+        })
+    };
+
+    const resetZoom = () => {
+        setProcessed((prevProcessed) => {
+            const newProcessed = [...prevProcessed];
+            newProcessed[newProcessed.length - 1] = ["Zoom", 1];
+            return newProcessed;
+        })
+    };
 
     const [processed, setProcessed] = useState([...dataParser(), ["Zoom", 1]]);
     const [isDetailsOpen, setIsDetailsOpen] = useState(false);
@@ -142,50 +165,59 @@ export const MainPage = () => {
                                 </span>
                             )}
                         </div>
-                        <div className="flex flex-col items-start gap-2">
-                            <label htmlFor="zoom" className="text-sm text-left text-white font-montserrat">Zoom</label>
-                            <input id="zoom" type="range" min="1" max="5" defaultValue="1" onChange={handleChangeZoom} step="0.5" className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700" />
-                        </div>
                     </div>
-                    <div className={`overflow-auto max-h-[35vh] ${isDetailsOpen ? "md:max-h-[45vh]" : "md:max-h-[50vh]"}`}>
-                        <Chart
-                            chartEvents={[
-                                {
-                                    eventName: "ready",
-                                    callback: ({ chartWrapper }) => {
-                                        const dataTable = chartWrapper.getDataTable();
-                                        const zoomValue = dataTable?.getValue(dataTable?.getNumberOfRows() - 1, 1)?.toString() ?? "1";
-                                        const zoomMultiplier = parseFloat(zoomValue);
+                    <div className={`relative h-full max-h-[35vh] ${isDetailsOpen ? "md:max-h-[45vh]" : "md:max-h-[50vh]"}`}>
+                        <div className={`relative overflow-auto max-h-[35vh] ${isDetailsOpen ? "md:max-h-[45vh]" : "md:max-h-[50vh]"}`}>
+                            <Chart
+                                chartEvents={[
+                                    {
+                                        eventName: "ready",
+                                        callback: ({ chartWrapper }) => {
+                                            const dataTable = chartWrapper.getDataTable();
+                                            const zoomValue = dataTable?.getValue(dataTable?.getNumberOfRows() - 1, 1)?.toString() ?? "1";
+                                            const zoomMultiplier = parseFloat(zoomValue);
 
-                                        const currentHeight = chartWrapper.getOption("height")
-                                        if (currentHeight !== Math.round(365 * zoomMultiplier)) {
-                                            chartWrapper.setOption("height", Math.round(365 * zoomMultiplier));
-                                            chartWrapper.setOption("width", Math.round(700 * zoomMultiplier));
-                                            chartWrapper.draw();
-                                        }
+                                            const currentHeight = chartWrapper.getOption("height")
+                                            if (currentHeight !== Math.round(365 * zoomMultiplier)) {
+                                                chartWrapper.setOption("height", Math.round(365 * zoomMultiplier));
+                                                chartWrapper.setOption("width", Math.round(700 * zoomMultiplier));
+                                                chartWrapper.draw();
+                                            }
+                                        },
                                     },
-                                },
-                                {
-                                    eventName: "select",
-                                    callback: ({ chartWrapper }) => {
-                                        const chart = chartWrapper.getChart();
-                                        const selection = chart.getSelection();
-                                        if (selection.length === 0) return;
-                                        const region =
-                                            processed[selection[0].row + 1];
-                                        setNation(region[0]);
-                                        setIsDetailsOpen(true);
+                                    {
+                                        eventName: "select",
+                                        callback: ({ chartWrapper }) => {
+                                            const chart = chartWrapper.getChart();
+                                            const selection = chart.getSelection();
+                                            if (selection.length === 0) return;
+                                            const region =
+                                                processed[selection[0].row + 1];
+                                            setNation(region[0]);
+                                            setIsDetailsOpen(true);
+                                            resetZoom();
+                                        },
                                     },
-                                },
-                            ]}
-                            chartType="GeoChart"
-                            height="82%"
-                            data={processed}
-                            options={options}
-                            style={{
-                                margin: "0 auto",
-                            }}
-                        />
+                                ]}
+                                chartType="GeoChart"
+                                height="82%"
+                                data={processed}
+                                options={options}
+                                style={{
+                                    margin: "0 auto",
+                                }}
+                            />
+                        </div>
+                        <div className="absolute bottom-6 right-6 justify-center flex flex-col bg-[#24303F] border border-white">
+                            <FaIcons.FaPlus
+                                className="w-8 h-8 p-2 hover:cursor-pointer"
+                                onClick={handleIncrementZoom}
+                            />
+                            <FaIcons.FaMinus
+                                className="w-8 h-8 p-2 hover:cursor-pointer"
+                                onClick={handleDecrementZoom}
+                            />
+                        </div>
                     </div>
                     <div className="flex items-center justify-center gap-2 my-4">
                         <p className="text-sm text-left text-white bg-[#24303F] font-montserrat font-bold">1</p>

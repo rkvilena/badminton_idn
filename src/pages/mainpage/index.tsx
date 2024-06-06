@@ -145,21 +145,28 @@ export const MainPage = () => {
                         (shown in the map by a <b>white color</b>).
                     </p>
                     <hr className="my-4 border-0 h-[1px] bg-gray-700"></hr>
-                    <div className="flex items-start justify-center gap-4 mb-4">
-                        <p className="px-4 py-2 text-sm text-left text-white bg-[#24303F] border border-white rounded-full font-montserrat">
-                            <b>Click the nation</b> on the map to see more.
-                        </p>
-                        <div className="flex flex-col gap-1">
-                            <input
-                                className="w-fit bg-[#24303F] shadow appearance-none border border-white font-montserrat py-2.5 px-3 text-sm text-white-365 leading-tight focus:outline-none focus:shadow-outline"
-                                id="nationname"
-                                type="text"
-                                placeholder="Search a nation name"
-                                onChange={handleInputChange}
-                                onKeyDown={handleSearchEnter}
-                            />
+                    <div className="flex justify-between">
+                        <div className="gap-4 mb-4">
+                            <p className="px-4 py-2 text-sm w-fit text-center text-white bg-[#24303F] border border-white rounded-full font-montserrat">
+                                <b>Click the nation</b> on the map to see more.
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-end gap-1 min-w-[300px]">
+                            <div className="flex items-center justify-center w-full gap-2">
+                                <FaIcons.FaSearch
+                                    className="w-8 h-8 p-2"
+                                />
+                                <input
+                                    className="w-full rounded-sm bg-[#24303F] shadow appearance-none border-b focus:border border-white font-montserrat py-2.5 px-3 text-sm text-white-365 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="nationname"
+                                    type="text"
+                                    placeholder="Search a nation name"
+                                    onChange={handleInputChange}
+                                    onKeyDown={handleSearchEnter}
+                                />
+                            </div>
                             {!isValidSearchTerm && (
-                                <span className="ml-4 text-xs text-left text-red-700">
+                                <span className="w-full text-xs text-right text-red-700">
                                     {searchTerm} is an invalid nation name, try{" "}
                                     <b>Indonesia</b>.
                                 </span>
@@ -200,7 +207,7 @@ export const MainPage = () => {
                                     },
                                 ]}
                                 chartType="GeoChart"
-                                height="82%"
+                                height="85%"
                                 data={processed}
                                 options={options}
                                 style={{
@@ -208,7 +215,7 @@ export const MainPage = () => {
                                 }}
                             />
                         </div>
-                        <div className="absolute bottom-6 right-6 justify-center flex flex-col bg-[#24303F] border border-white">
+                        <div className="absolute rounded-sm bottom-6 right-6 justify-center flex flex-col bg-[#24303F] border border-white z-10">
                             <FaIcons.FaPlus
                                 className="w-8 h-8 p-2 hover:cursor-pointer"
                                 onClick={handleIncrementZoom}

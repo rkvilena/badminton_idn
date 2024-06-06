@@ -83,7 +83,7 @@ export const nationalName2gcode = {
 	india: "IN",
 	"hong kong": "HK",
 	netherlands: "NL",
-	"South Korea": "KR",
+	"south korea": "KR",
 	thailand: "TH",
 	england: "GB",
 	singapore: "SG",

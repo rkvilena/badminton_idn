@@ -79,7 +79,7 @@ export const MainPage = () => {
         setProcessed((prevProcessed) => {
             const newProcessed = [...prevProcessed];
             const previousZoom = parseFloat(newProcessed[newProcessed.length - 1][1].toString());
-            if (previousZoom > 0) {
+            if (previousZoom > 1) {
                 newProcessed[newProcessed.length - 1] = ["Zoom", previousZoom - 0.5];
             }
             return newProcessed;
